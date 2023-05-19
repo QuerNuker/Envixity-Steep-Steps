@@ -101,7 +101,23 @@ TextButton.Text = "Unanchor all"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
-	print('Working')
+	for _, v in pairs(root:GetChildren()) do
+if v:IsA("BasePart") then
+v.Material = "Plastic"
+v.Transparency = 0
+v.Anchored = false
+v.Locked = false
+end
+exPro(v)
+end
+end
+function asdf(root)
+for _, v in pairs(root:GetChildren()) do
+asdf(v)
+end
+end
+exPro(game.Workspace)
+asdf(game.Workspace)
 end)
 
 
@@ -115,7 +131,22 @@ TextButton_2.Text = "Floating Pad"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 14.000
 TextButton_2.MouseButton1Down:connect(function()
-	print('Working')
+	local name = game.Players.LocalPlayer.Name
+
+local p = Instance.new("Part")
+p.Parent = workspace
+p.Locked = true
+p.BrickColor = BrickColor.new("White")
+p.BrickColor = BrickColor.new(104)
+p.Size = Vector3.new(8, 1.2, 8)
+p.Anchored = true
+local m = Instance.new("CylinderMesh")
+m.Scale = Vector3.new(1, 0.5, 1)
+m.Parent = p
+while true do
+    p.CFrame = CFrame.new(game.Players:findFirstChild(name).Character.Torso.CFrame.x, game.Players:findFirstChild(name).Character.Torso.CFrame.y - 4, game.Players:findFirstChild(name).Character.Torso.CFrame.z)
+    wait()
+end
 end)
 
 
@@ -129,7 +160,7 @@ TextButton_3.Text = "Set Flood"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.TextSize = 14.000
 TextButton_3.MouseButton1Down:connect(function()
-	print('Working')
+	Game.Workspace.Terrain:SetCells(Region3int16.new(Vector3int16.new(-100,-100,-100), Vector3int16.new(100,100,100)), 17, "Solid", "X")
 end)
 
 
@@ -142,8 +173,7 @@ TextButton_4.Font = Enum.Font.SourceSans
 TextButton_4.Text = "HyperLaser [FE]"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 14.000
-TextButton_4.MouseButton1Down:connect(function()
-	print('Working')
+TextButton_4.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/9imumVD3", true))()
 end)
 
 
@@ -157,7 +187,9 @@ TextButton_5.Text = "Insert Tool"
 TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_5.TextSize = 14.000
 TextButton_5.MouseButton1Down:connect(function()
-	print('Working')
+	g = script.BuildInsert:Clone()
+g.Parent = game.Players.LocalPlayer.Backpack
+end
 end)
 
 
@@ -171,7 +203,9 @@ TextButton_6.Text = "Create Baseplate"
 TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_6.TextSize = 14.000
 TextButton_6.MouseButton1Down:connect(function()
-	print('Working')
+	b = Instance.new("Part", Workspace)
+b.Size = Vector3.new(400, 2, 400)
+b.BrickColor = BrickColor.new("Dark Green")
 end)
 
 
@@ -184,8 +218,7 @@ TextButton_7.Font = Enum.Font.SourceSans
 TextButton_7.Text = "Draw Tool 3D"
 TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.TextSize = 14.000
-TextButton_7.MouseButton1Down:connect(function()
-	print('Working')
+TextButton_7.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://github.com/Ghsstx/Draw-tool-3d/blob/main/Draw%20tool", true))()
 end)
 
 
@@ -198,8 +231,7 @@ TextButton_8.Font = Enum.Font.SourceSans
 TextButton_8.Text = "Lighting Power"
 TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.TextSize = 14.000
-TextButton_8.MouseButton1Down:connect(function()
-	print('Working')
+TextButton_8.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/udbCnrAb", true))()
 end)
 
 
@@ -582,11 +614,10 @@ TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_19.Position = UDim2.new(0.0204082467, 0, 0.259365857, 0)
 TextButton_19.Size = UDim2.new(0, 351, 0, 27)
 TextButton_19.Font = Enum.Font.SourceSans
-TextButton_19.Text = "ESP Tracers"
+TextButton_19.Text = "Tracers All"
 TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_19.TextSize = 14.000
-TextButton_19.MouseButton1Down:connect(function()
-	print('Working')
+TextButton_19.MouseButton1Down:connect(function()	loadstring(game:HttpGet("https://pastebin.com/raw/XATTnyMi"))();
 end)
 
 
@@ -596,11 +627,11 @@ TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_20.Position = UDim2.new(0.0204082467, 0, 0.138328552, 0)
 TextButton_20.Size = UDim2.new(0, 351, 0, 27)
 TextButton_20.Font = Enum.Font.SourceSans
-TextButton_20.Text = "ESP Box"
+TextButton_20.Text = "Box All"
 TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_20.TextSize = 14.000
 TextButton_20.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/gAgNP9bh"))();
 end)
 
 
@@ -614,7 +645,7 @@ TextButton_21.Text = "ESP Name"
 TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_21.TextSize = 14.000
 TextButton_21.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/RFSQf97x"))();
 end)
 
 
@@ -628,7 +659,7 @@ TextButton_22.Text = "ESP All"
 TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_22.TextSize = 14.000
 TextButton_22.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/kEy5QAsJ"))();
 end)
 
 
@@ -693,7 +724,7 @@ TextButton_23.Text = "Reach Fling [FE]"
 TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_23.TextSize = 14.000
 TextButton_23.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/q1ScSGgU", true))()
 end)
 
 
@@ -707,7 +738,7 @@ TextButton_24.Text = "Push Tool [Not FE]"
 TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_24.TextSize = 14.000
 TextButton_24.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/uBn2u6F6"))();
 end)
 
 
@@ -721,7 +752,7 @@ TextButton_25.Text = "F3X Tool"
 TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_25.TextSize = 14.000
 TextButton_25.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/qDnmyMzf"))();
 end)
 
 
@@ -736,7 +767,15 @@ TextButton_26.Text = "Click Teleport"
 TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_26.TextSize = 14.000
 TextButton_26.MouseButton1Down:connect(function()
-	print('Working')
+	local LocalPlayer = game.Players.LocalPlayer
+local rp = LocalPlayer.Character.HumanoidRootPart
+local tool = Instance.new("Tool",LocalPlayer.Backpack)
+local mouse = LocalPlayer:GetMouse()
+tool.Name = "click tp"
+tool.RequiresHandle = false
+tool.Activated:Connect(function()
+    rp.CFrame = CFrame.new(mouse.Hit.X,mouse.Hit.Y + 4,mouse.Hit.Z)
+end)
 end)
 
 
@@ -750,7 +789,7 @@ TextButton_27.Text = "Rainbow Carpet"
 TextButton_27.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_27.TextSize = 14.000
 TextButton_27.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/tBGCmDwS"))();
 end)
 
 
@@ -764,7 +803,7 @@ TextButton_28.Text = "Ban Hammer"
 TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_28.TextSize = 14.000
 TextButton_28.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/AbJLygrY"))();
 end)
 
 
@@ -778,7 +817,7 @@ TextButton_29.Text = "Btools [FE]"
 TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_29.TextSize = 14.000
 TextButton_29.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/5gXthvzu"))();
 end)
 
 
@@ -806,7 +845,7 @@ TextButton_31.Text = "Sword [Not FE]"
 TextButton_31.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_31.TextSize = 14.000
 TextButton_31.MouseButton1Down:connect(function()
-	print('Working')
+loadstring(game:HttpGet("https://pastebin.com/raw/mhxekj7V", true))()
 end)
 
 
