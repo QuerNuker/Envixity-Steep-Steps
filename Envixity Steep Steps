@@ -1,21 +1,6 @@
---Powered by team Quer Nuker By Thecore5063!
-
-local QuerNukerV15Premium = Instance.new("ScreenGui")
-local OpenFrame = Instance.new("Frame")
-local MinimizeButon = Instance.new("TextButton")
-local Title = Instance.new("TextLabel")
-local ImageLabel = Instance.new("ImageLabel")
-local CloseButton = Instance.new("TextButton")
+local EnvixitySteepSteps = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local WhiteLine = Instance.new("TextLabel")
-local Aimlocktext = Instance.new("TextLabel")
-local SilentAimText = Instance.new("TextLabel")
-local Esptext = Instance.new("TextLabel")
-local AnimationText = Instance.new("TextLabel")
-local FunText = Instance.new("TextLabel")
-local CreditsText = Instance.new("TextLabel")
-local TextLabel = Instance.new("TextLabel")
-local ScrollingAimlcok = Instance.new("ScrollingFrame")
+local AutoBuy = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
@@ -24,23 +9,53 @@ local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
 local TextButton_8 = Instance.new("TextButton")
-local ScrollingSilentAim = Instance.new("ScrollingFrame")
+local Credits = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local SilentAim = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local TextLabel_9 = Instance.new("TextLabel")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local TextLabel_12 = Instance.new("TextLabel")
+local TextLabel_13 = Instance.new("TextLabel")
+local TextLabel_14 = Instance.new("TextLabel")
+local TextLabel_15 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local Aimlock = Instance.new("Frame")
 local TextButton_9 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local OpenAimlockFrame = Instance.new("TextButton")
+local OpenSilentAimFrame = Instance.new("TextButton")
+local OpenFunFrame = Instance.new("TextButton")
+local OpenAutoBuyFrame = Instance.new("TextButton")
+local Animation = Instance.new("Frame")
+local Teleport = Instance.new("Frame")
 local TextButton_10 = Instance.new("TextButton")
 local TextButton_11 = Instance.new("TextButton")
 local TextButton_12 = Instance.new("TextButton")
 local TextButton_13 = Instance.new("TextButton")
-local ScrollingEsp = Instance.new("ScrollingFrame")
 local TextButton_14 = Instance.new("TextButton")
 local TextButton_15 = Instance.new("TextButton")
 local TextButton_16 = Instance.new("TextButton")
 local TextButton_17 = Instance.new("TextButton")
 local TextButton_18 = Instance.new("TextButton")
+local Esp = Instance.new("Frame")
 local TextButton_19 = Instance.new("TextButton")
-local ScrollingAnimation = Instance.new("ScrollingFrame")
 local TextButton_20 = Instance.new("TextButton")
 local TextButton_21 = Instance.new("TextButton")
 local TextButton_22 = Instance.new("TextButton")
+local OpenEspFrame = Instance.new("TextButton")
+local OpenCreditsFrame = Instance.new("TextButton")
+local TextLabel_18 = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local Fun = Instance.new("Frame")
 local TextButton_23 = Instance.new("TextButton")
 local TextButton_24 = Instance.new("TextButton")
 local TextButton_25 = Instance.new("TextButton")
@@ -50,1596 +65,1214 @@ local TextButton_28 = Instance.new("TextButton")
 local TextButton_29 = Instance.new("TextButton")
 local TextButton_30 = Instance.new("TextButton")
 local TextButton_31 = Instance.new("TextButton")
+local Target = Instance.new("Frame")
+local Premium = Instance.new("Frame")
+local AutoFarm = Instance.new("Frame")
+local ExtraStuff = Instance.new("Frame")
+local Fov = Instance.new("Frame")
 local TextButton_32 = Instance.new("TextButton")
-local TextButton_33 = Instance.new("TextButton")
-local TextButton_34 = Instance.new("TextButton")
-local TextButton_35 = Instance.new("TextButton")
-local TextButton_36 = Instance.new("TextButton")
-local TextButton_37 = Instance.new("TextButton")
-local ScrollingFun = Instance.new("ScrollingFrame")
-local TextButton_38 = Instance.new("TextButton")
-local TextButton_39 = Instance.new("TextButton")
-local TextButton_40 = Instance.new("TextButton")
-local TextButton_41 = Instance.new("TextButton")
-local TextButton_42 = Instance.new("TextButton")
-local TextButton_43 = Instance.new("TextButton")
-local TextButton_44 = Instance.new("TextButton")
-local TextButton_45 = Instance.new("TextButton")
-local TextButton_46 = Instance.new("TextButton")
-local TextButton_47 = Instance.new("TextButton")
-local TextButton_48 = Instance.new("TextButton")
-local TextButton_49 = Instance.new("TextButton")
-local CreditsText_2 = Instance.new("TextLabel")
-local CreditsText_3 = Instance.new("TextLabel")
-local CreditsText_4 = Instance.new("TextLabel")
-local CreditsText_5 = Instance.new("TextLabel")
-local CreditsText_6 = Instance.new("TextLabel")
-local CreditsText_7 = Instance.new("TextLabel")
-local CreditsText_8 = Instance.new("TextLabel")
-local CreditsText_9 = Instance.new("TextLabel")
-local CreditsText_10 = Instance.new("TextLabel")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local CreditsText_11 = Instance.new("TextLabel")
-local StaminaTitle = Instance.new("TextLabel")
-local WhiteLine_2 = Instance.new("TextLabel")
-local profileFrame = Instance.new("Frame")
-local ImageLabel_3 = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
-local TextBox = Instance.new("TextBox")
-local Premium = Instance.new("TextLabel")
-local StaminaPremium = Instance.new("TextLabel")
-local StaminaPremium_2 = Instance.new("TextLabel")
-local ImageLabel_4 = Instance.new("ImageLabel")
-local ColorPicker = Instance.new("TextLabel")
-local ColorUI = Instance.new("Frame")
-local ColorPickers = Instance.new("Frame")
-local Vertical = Instance.new("Frame")
-local ColorPickerArea = Instance.new("Frame")
-local Picker = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
-local UIGradent = Instance.new("UIGradient")
-local UICorner_3 = Instance.new("UICorner")
-local UICorner_4 = Instance.new("UICorner")
-local Horizontal = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
-local ColorPickerArea_2 = Instance.new("Frame")
-local Picker_2 = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
-local UICorner_7 = Instance.new("UICorner")
-local Rainbow = Instance.new("UIGradient")
-local UICorner_8 = Instance.new("UICorner")
-local RGBInput = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
-local R = Instance.new("Frame")
-local ColorName = Instance.new("TextLabel")
-local ValueBox = Instance.new("TextBox")
-local UICorner_10 = Instance.new("UICorner")
-local G = Instance.new("Frame")
-local ColorName_2 = Instance.new("TextLabel")
-local ValueBox_2 = Instance.new("TextBox")
-local UICorner_11 = Instance.new("UICorner")
-local B = Instance.new("Frame")
-local ColorName_3 = Instance.new("TextLabel")
-local ValueBox_3 = Instance.new("TextBox")
-local UICorner_12 = Instance.new("UICorner")
-local Action = Instance.new("TextButton")
-local Color = Instance.new("Frame")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local ColorPickerFrame = Instance.new("Frame")
-local ColorShower = Instance.new("Frame")
-local ColorPickerArea_3 = Instance.new("Frame")
-local Picker_3 = Instance.new("Frame")
-local Rainbow_2 = Instance.new("UIGradient")
 
-QuerNukerV15Premium.Name = "Quer Nuker V1.5 Premium"
-QuerNukerV15Premium.Parent = game.CoreGui
-QuerNukerV15Premium.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+EnvixitySteepSteps.Name = "Envixity Steep Steps"
+EnvixitySteepSteps.Parent = game.CoreGui
+EnvixitySteepSteps.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-OpenFrame.Name = "OpenFrame"
-OpenFrame.Parent = QuerNukerV15Premium
-OpenFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-OpenFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
-OpenFrame.Position = UDim2.new(0.102297291, 0, 0.0448738635, 0)
-OpenFrame.Size = UDim2.new(0, 548, 0, 22)
-OpenFrame.Active = true
-OpenFrame.Draggable = true
-
-MinimizeButon.Name = "MinimizeButon"
-MinimizeButon.Parent = OpenFrame
-MinimizeButon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-MinimizeButon.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MinimizeButon.Position = UDim2.new(0.888888896, 0, 0.120461196, 0)
-MinimizeButon.Size = UDim2.new(0.0597777665, 0, 0.742809296, 0)
-MinimizeButon.Font = Enum.Font.Sarpanch
-MinimizeButon.Text = "v"
-MinimizeButon.TextColor3 = Color3.fromRGB(255, 255, 255)
-MinimizeButon.TextScaled = true
-MinimizeButon.TextSize = 14.000
-MinimizeButon.TextWrapped = true
-MinimizeButon.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-Title.Name = "Title"
-Title.Parent = OpenFrame
-Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Title.Position = UDim2.new(0.0018248175, 0, 0.162017822, 0)
-Title.Size = UDim2.new(0, 77, 0, 14)
-Title.Font = Enum.Font.Sarpanch
-Title.Text = "Quer Nuker"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title.TextScaled = true
-Title.TextSize = 14.000
-Title.TextWrapped = true
-
-ImageLabel.Parent = Title
-ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.Position = UDim2.new(0.896103919, 0, 0, 0)
-ImageLabel.Size = UDim2.new(0, 18, 0, 14)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=7169354142"
-
-CloseButton.Name = "CloseButton"
-CloseButton.Parent = OpenFrame
-CloseButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CloseButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-CloseButton.Position = UDim2.new(0.939890623, 0, 0.0909090936, 0)
-CloseButton.Size = UDim2.new(0.0563503727, 0, 0.743000031, 0)
-CloseButton.Font = Enum.Font.Sarpanch
-CloseButton.Text = "x"
-CloseButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-CloseButton.TextScaled = true
-CloseButton.TextSize = 14.000
-CloseButton.TextWrapped = true
-Closebutton.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-Frame.Parent = OpenFrame
+Frame.Parent = EnvixitySteepSteps
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Frame.Position = UDim2.new(0.00112396479, 0, 0.972223938, 0)
-Frame.Size = UDim2.new(0, 548, 0, 326)
-Frame.Active = true
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.196088821, 0, 0.116530962, 0)
+Frame.Size = UDim2.new(0, 431, 0, 264)
 
-WhiteLine.Name = "White Line"
-WhiteLine.Parent = Frame
-WhiteLine.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-WhiteLine.BorderColor3 = Color3.fromRGB(255, 255, 255)
-WhiteLine.Size = UDim2.new(0, 548, 0, 4)
-WhiteLine.Font = Enum.Font.Arcade
-WhiteLine.Text = ""
-WhiteLine.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteLine.TextScaled = true
-WhiteLine.TextSize = 14.000
-WhiteLine.TextWrapped = true
+AutoBuy.Name = "AutoBuy "
+AutoBuy.Parent = Frame
+AutoBuy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AutoBuy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoBuy.Position = UDim2.new(0.170113057, 0, 0.0923780948, 0)
+AutoBuy.Size = UDim2.new(0, 357, 0, 240)
+AutoBuy.Visible = false
 
-Aimlocktext.Name = "Aimlock text"
-Aimlocktext.Parent = Frame
-Aimlocktext.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Aimlocktext.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Aimlocktext.Position = UDim2.new(0, 0, 0.0122699384, 0)
-Aimlocktext.Size = UDim2.new(0, 87, 0, 12)
-Aimlocktext.Font = Enum.Font.Sarpanch
-Aimlocktext.Text = "Aimlock"
-Aimlocktext.TextColor3 = Color3.fromRGB(255, 255, 255)
-Aimlocktext.TextScaled = true
-Aimlocktext.TextSize = 14.000
-Aimlocktext.TextWrapped = true
-
-SilentAimText.Name = "SilentAim Text"
-SilentAimText.Parent = Frame
-SilentAimText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-SilentAimText.BorderColor3 = Color3.fromRGB(255, 255, 255)
-SilentAimText.Position = UDim2.new(0.158759117, 0, 0.0122699384, 0)
-SilentAimText.Size = UDim2.new(0, 87, 0, 12)
-SilentAimText.Font = Enum.Font.Sarpanch
-SilentAimText.Text = "Silent Aim"
-SilentAimText.TextColor3 = Color3.fromRGB(255, 255, 255)
-SilentAimText.TextScaled = true
-SilentAimText.TextSize = 14.000
-SilentAimText.TextWrapped = true
-
-Esptext.Name = "Esp text"
-Esptext.Parent = Frame
-Esptext.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Esptext.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Esptext.Position = UDim2.new(0.317518234, 0, 0.0122699384, 0)
-Esptext.Size = UDim2.new(0, 87, 0, 12)
-Esptext.Font = Enum.Font.Sarpanch
-Esptext.Text = "Esp"
-Esptext.TextColor3 = Color3.fromRGB(255, 255, 255)
-Esptext.TextScaled = true
-Esptext.TextSize = 14.000
-Esptext.TextWrapped = true
-
-AnimationText.Name = "Animation Text"
-AnimationText.Parent = Frame
-AnimationText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-AnimationText.BorderColor3 = Color3.fromRGB(255, 255, 255)
-AnimationText.Position = UDim2.new(0.476277351, 0, 0.0122699384, 0)
-AnimationText.Size = UDim2.new(0, 87, 0, 12)
-AnimationText.Font = Enum.Font.Sarpanch
-AnimationText.Text = "Animation"
-AnimationText.TextColor3 = Color3.fromRGB(255, 255, 255)
-AnimationText.TextScaled = true
-AnimationText.TextSize = 14.000
-AnimationText.TextWrapped = true
-
-FunText.Name = "Fun Text"
-FunText.Parent = Frame
-FunText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-FunText.BorderColor3 = Color3.fromRGB(255, 255, 255)
-FunText.Position = UDim2.new(0.635036469, 0, 0.0122699384, 0)
-FunText.Size = UDim2.new(0, 87, 0, 12)
-FunText.Font = Enum.Font.Sarpanch
-FunText.Text = "Fun"
-FunText.TextColor3 = Color3.fromRGB(255, 255, 255)
-FunText.TextScaled = true
-FunText.TextSize = 14.000
-FunText.TextWrapped = true
-
-CreditsText.Name = "Credits Text"
-CreditsText.Parent = Frame
-CreditsText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText.Position = UDim2.new(0.793795586, 0, 0.0122699384, 0)
-CreditsText.Size = UDim2.new(0, 87, 0, 12)
-CreditsText.Font = Enum.Font.Sarpanch
-CreditsText.Text = "Credits"
-CreditsText.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText.TextScaled = true
-CreditsText.TextSize = 14.000
-CreditsText.TextWrapped = true
-
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.Position = UDim2.new(0.956204355, 0, 0.0122699384, 0)
-TextLabel.Size = UDim2.new(0, 23, 0, 12)
-TextLabel.Font = Enum.Font.Sarpanch
-TextLabel.Text = "V.1.5"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
-
-ScrollingAimlcok.Name = "ScrollingAimlcok"
-ScrollingAimlcok.Parent = Frame
-ScrollingAimlcok.Active = true
-ScrollingAimlcok.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingAimlcok.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingAimlcok.Position = UDim2.new(0, 0, 0.0552147217, 0)
-ScrollingAimlcok.Size = UDim2.new(0, 86, 0, 135)
-
-TextButton.Parent = ScrollingAimlcok
+TextButton.Parent = AutoBuy
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.Position = UDim2.new(0.0930232555, 0, 0.060583435, 0)
-TextButton.Size = UDim2.new(0, 59, 0, 24)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.Position = UDim2.new(0.00288911094, 0, 0.237137601, 0)
+TextButton.Size = UDim2.new(0, 356, 0, 27)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Tool Lock"
+TextButton.Text = "Unanchor all"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_2.Parent = ScrollingAimlcok
+
+TextButton_2.Parent = AutoBuy
 TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.Position = UDim2.new(0.0930232555, 0, 0.011503676, 0)
-TextButton_2.Size = UDim2.new(0, 59, 0, 24)
-TextButton_2.Font = Enum.Font.Sarpanch
-TextButton_2.Text = "Green Lock"
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.Position = UDim2.new(0.00288911094, 0, 0.561775446, 0)
+TextButton_2.Size = UDim2.new(0, 356, 0, 27)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Floating Pad"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 14.000
 TextButton_2.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_3.Parent = ScrollingAimlcok
+
+TextButton_3.Parent = AutoBuy
 TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.Position = UDim2.new(0.0930232555, 0, 0.111196935, 0)
-TextButton_3.Size = UDim2.new(0, 59, 0, 24)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.Position = UDim2.new(0.00288911094, 0, 0.121195599, 0)
+TextButton_3.Size = UDim2.new(0, 356, 0, 27)
 TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Box Lock"
+TextButton_3.Text = "Set Flood"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.TextSize = 14.000
 TextButton_3.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_4.Parent = ScrollingAimlcok
+
+TextButton_4.Parent = AutoBuy
 TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.Position = UDim2.new(0.0930232555, 0, 0.160276681, 0)
-TextButton_4.Size = UDim2.new(0, 59, 0, 24)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.Position = UDim2.new(0.00288911094, 0, 0.677717566, 0)
+TextButton_4.Size = UDim2.new(0, 356, 0, 27)
 TextButton_4.Font = Enum.Font.SourceSans
-TextButton_4.Text = "Rainbow"
+TextButton_4.Text = "HyperLaser [FE]"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 14.000
 TextButton_4.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_5.Parent = ScrollingAimlcok
+
+TextButton_5.Parent = AutoBuy
 TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.Position = UDim2.new(0.0930232555, 0, 0.215491384, 0)
-TextButton_5.Size = UDim2.new(0, 59, 0, 24)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.Position = UDim2.new(0.00288911094, 0, 0.454529077, 0)
+TextButton_5.Size = UDim2.new(0, 356, 0, 27)
 TextButton_5.Font = Enum.Font.SourceSans
-TextButton_5.Text = "Tracer Lock"
+TextButton_5.Text = "Insert Tool"
 TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_5.TextSize = 14.000
 TextButton_5.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_6.Parent = ScrollingAimlcok
+
+TextButton_6.Parent = AutoBuy
 TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_6.Position = UDim2.new(0.0930232555, 0, 0.270706117, 0)
-TextButton_6.Size = UDim2.new(0, 59, 0, 24)
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.Position = UDim2.new(0.00288911094, 0, -0.000543467177, 0)
+TextButton_6.Size = UDim2.new(0, 356, 0, 27)
 TextButton_6.Font = Enum.Font.SourceSans
-TextButton_6.Text = "White Lock"
+TextButton_6.Text = "Create Baseplate"
 TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_6.TextSize = 14.000
 TextButton_6.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_7.Parent = ScrollingAimlcok
+
+TextButton_7.Parent = AutoBuy
 TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_7.Position = UDim2.new(0.0930232555, 0, 0.322853357, 0)
-TextButton_7.Size = UDim2.new(0, 59, 0, 24)
+TextButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.Position = UDim2.new(0.00288911094, 0, 0.344384015, 0)
+TextButton_7.Size = UDim2.new(0, 356, 0, 27)
 TextButton_7.Font = Enum.Font.SourceSans
-TextButton_7.Text = "CamLock q"
+TextButton_7.Text = "Draw Tool 3D"
 TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.TextSize = 14.000
 TextButton_7.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_8.Parent = ScrollingAimlcok
+
+TextButton_8.Parent = AutoBuy
 TextButton_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_8.Position = UDim2.new(0.0930232555, 0, 0.37806806, 0)
-TextButton_8.Size = UDim2.new(0, 59, 0, 24)
+TextButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.Position = UDim2.new(0.00288911094, 0, 0.790217578, 0)
+TextButton_8.Size = UDim2.new(0, 356, 0, 27)
 TextButton_8.Font = Enum.Font.SourceSans
-TextButton_8.Text = "AimLock t"
+TextButton_8.Text = "Lighting Power"
 TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.TextSize = 14.000
 TextButton_8.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-ScrollingSilentAim.Name = "ScrollingSilentAim"
-ScrollingSilentAim.Parent = Frame
-ScrollingSilentAim.Active = true
-ScrollingSilentAim.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingSilentAim.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingSilentAim.Position = UDim2.new(0.160583943, 0, 0.0552147217, 0)
-ScrollingSilentAim.Size = UDim2.new(0, 86, 0, 135)
 
-TextButton_9.Parent = ScrollingSilentAim
+Credits.Name = "Credits"
+Credits.Parent = Frame
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.Position = UDim2.new(0.16802977, 0, 0.0431356505, 0)
+Credits.Size = UDim2.new(0, 358, 0, 240)
+Credits.Visible = false
+
+TextLabel.Parent = Credits
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.00992452167, 0, 0.0300287884, 0)
+TextLabel.Size = UDim2.new(0, 349, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Owner"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Credits
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0.00992452167, 0, 0.253879279, 0)
+TextLabel_2.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Discord"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.0238910019, 0, 0.334913611, 0)
+TextLabel_3.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "https://discord.gg/envixityscripts"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0.0238910019, 0, 0.143678159, 0)
+TextLabel_4.Size = UDim2.new(0, 349, 0, 27)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Envixity#7381"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+SilentAim.Name = "Silent Aim"
+SilentAim.Parent = Frame
+SilentAim.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SilentAim.Position = UDim2.new(0.168029934, 0, 0.084802337, 0)
+SilentAim.Size = UDim2.new(0, 358, 0, 241)
+SilentAim.Visible = false
+
+TextLabel_5.Parent = SilentAim
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.Position = UDim2.new(0.0121731041, 0, 0.0427107364, 0)
+TextLabel_5.Size = UDim2.new(0, 58, 0, 34)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Fluxus:"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextLabel_6.Parent = SilentAim
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.Position = UDim2.new(0.157424495, 0, 0.0922975168, 0)
+TextLabel_6.Size = UDim2.new(0, 39, 0, 12)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Working"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 255, 42)
+TextLabel_6.TextSize = 14.000
+
+TextLabel_7.Parent = SilentAim
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.Position = UDim2.new(0.0121731041, 0, 0.15428099, 0)
+TextLabel_7.Size = UDim2.new(0, 58, 0, 34)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Delta:"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+TextLabel_8.Parent = SilentAim
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.Position = UDim2.new(0.157424495, 0, 0.199735537, 0)
+TextLabel_8.Size = UDim2.new(0, 42, 0, 12)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Working"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 255, 42)
+TextLabel_8.TextSize = 14.000
+
+TextLabel_9.Parent = SilentAim
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.Position = UDim2.new(0.0121731041, 0, 0.257586777, 0)
+TextLabel_9.Size = UDim2.new(0, 58, 0, 34)
+TextLabel_9.Font = Enum.Font.SourceSans
+TextLabel_9.Text = "Hydrogen:"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextSize = 14.000
+
+TextLabel_10.Parent = SilentAim
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.Position = UDim2.new(0.179770872, 0, 0.303041309, 0)
+TextLabel_10.Size = UDim2.new(0, 42, 0, 12)
+TextLabel_10.Font = Enum.Font.SourceSans
+TextLabel_10.Text = "Working"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 255, 42)
+TextLabel_10.TextSize = 14.000
+
+TextLabel_11.Parent = SilentAim
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.Position = UDim2.new(0.0121731041, 0, 0.356760353, 0)
+TextLabel_11.Size = UDim2.new(0, 58, 0, 34)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Script-Ware:"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 14.000
+
+TextLabel_12.Parent = SilentAim
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.Position = UDim2.new(0.185357466, 0, 0.402214885, 0)
+TextLabel_12.Size = UDim2.new(0, 47, 0, 12)
+TextLabel_12.Font = Enum.Font.SourceSans
+TextLabel_12.Text = "Working"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 255, 42)
+TextLabel_12.TextSize = 14.000
+
+TextLabel_13.Parent = SilentAim
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.Position = UDim2.new(0.0121731041, 0, 0.455933899, 0)
+TextLabel_13.Size = UDim2.new(0, 58, 0, 34)
+TextLabel_13.Font = Enum.Font.SourceSans
+TextLabel_13.Text = "Script UP-Date:"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextSize = 14.000
+
+TextLabel_14.Parent = SilentAim
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.Position = UDim2.new(0.21608372, 0, 0.501388431, 0)
+TextLabel_14.Size = UDim2.new(0, 48, 0, 12)
+TextLabel_14.Font = Enum.Font.SourceSans
+TextLabel_14.Text = "UP-DATED"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 255, 42)
+TextLabel_14.TextSize = 14.000
+
+TextLabel_15.Parent = SilentAim
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.Position = UDim2.new(0.230050206, 0, 0.61295867, 0)
+TextLabel_15.Size = UDim2.new(0, 50, 0, 12)
+TextLabel_15.Font = Enum.Font.SourceSans
+TextLabel_15.Text = "UP-DATED"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 255, 42)
+TextLabel_15.TextSize = 14.000
+
+TextLabel_16.Parent = SilentAim
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.Position = UDim2.new(0.0121731041, 0, 0.567504168, 0)
+TextLabel_16.Size = UDim2.new(0, 58, 0, 34)
+TextLabel_16.Font = Enum.Font.SourceSans
+TextLabel_16.Text = "Script Developer:"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextSize = 14.000
+
+Aimlock.Name = "Aimlock"
+Aimlock.Parent = Frame
+Aimlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Aimlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimlock.Position = UDim2.new(0.168029934, 0, 0.0923780948, 0)
+Aimlock.Size = UDim2.new(0, 358, 0, 240)
+Aimlock.Active = true
+
+TextButton_9.Parent = Aimlock
 TextButton_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_9.Position = UDim2.new(0.0930232555, 0, 0.060583435, 0)
-TextButton_9.Size = UDim2.new(0, 59, 0, 24)
+TextButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.Position = UDim2.new(0.00365392584, 0, -0.0145113626, 0)
+TextButton_9.Size = UDim2.new(0, 356, 0, 27)
 TextButton_9.Font = Enum.Font.SourceSans
-TextButton_9.Text = "V1.5 Silent"
+TextButton_9.Text = "Copy Discord"
 TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_9.TextSize = 14.000
-TextButton_9.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_10.Parent = ScrollingSilentAim
+ImageLabel.Parent = Aimlock
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.Position = UDim2.new(0.396648049, 0, 0.0958333313, 0)
+ImageLabel.Size = UDim2.new(0, 73, 0, 62)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=13484494157"
+
+TextLabel_17.Parent = ImageLabel
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.Position = UDim2.new(-0.863013685, 0, 1, 0)
+TextLabel_17.Size = UDim2.new(0, 200, 0, 18)
+TextLabel_17.Font = Enum.Font.SourceSans
+TextLabel_17.Text = "_Envixity#7381 "
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextSize = 14.000
+
+OpenAimlockFrame.Name = "OpenAimlockFrame"
+OpenAimlockFrame.Parent = Frame
+OpenAimlockFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenAimlockFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenAimlockFrame.Position = UDim2.new(0.00219443347, 0, 0.0883280411, 0)
+OpenAimlockFrame.Size = UDim2.new(0, 72, 0, 15)
+OpenAimlockFrame.Font = Enum.Font.SourceSans
+OpenAimlockFrame.Text = "Main"
+OpenAimlockFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenAimlockFrame.TextSize = 14.000
+OpenAimlockFrame.Active = true
+
+OpenSilentAimFrame.Name = "OpenSilentAimFrame"
+OpenSilentAimFrame.Parent = Frame
+OpenSilentAimFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenSilentAimFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenSilentAimFrame.Position = UDim2.new(0.00219443347, 0, 0.14871794, 0)
+OpenSilentAimFrame.Size = UDim2.new(0, 72, 0, 21)
+OpenSilentAimFrame.Font = Enum.Font.SourceSans
+OpenSilentAimFrame.Text = "Stats"
+OpenSilentAimFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenSilentAimFrame.TextSize = 14.000
+OpenSilentAimFrame.Active = true
+
+
+OpenFunFrame.Name = "OpenFunFrame"
+OpenFunFrame.Parent = Frame
+OpenFunFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenFunFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenFunFrame.Position = UDim2.new(0.00219443347, 0, 0.225388736, 0)
+OpenFunFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenFunFrame.Font = Enum.Font.SourceSans
+OpenFunFrame.Text = "Tools"
+OpenFunFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFunFrame.TextSize = 14.000
+OpenFunFrame.Active = true
+
+OpenAutoBuyFrame.Name = "OpenAutoBuyFrame"
+OpenAutoBuyFrame.Parent = Frame
+OpenAutoBuyFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenAutoBuyFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenAutoBuyFrame.Position = UDim2.new(0.00219443347, 0, 0.293919176, 0)
+OpenAutoBuyFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenAutoBuyFrame.Font = Enum.Font.SourceSans
+OpenAutoBuyFrame.Text = "Misc"
+OpenAutoBuyFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenAutoBuyFrame.TextSize = 14.000
+OpenAutoBuyFrame.Active = true
+
+Animation.Name = "Animation"
+Animation.Parent = Frame
+Animation.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Animation.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Animation.Position = UDim2.new(0.170814037, 0, 0.101821557, 0)
+Animation.Size = UDim2.new(0, 357, 0, 240)
+Animation.Visible = false 
+
+Teleport.Name = "Teleport"
+Teleport.Parent = Frame
+Teleport.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teleport.Position = UDim2.new(0.168503523, 0, 0.0658631027, 0)
+Teleport.Size = UDim2.new(0, 358, 0, 240)
+Teleport.Visible = false
+
+TextButton_10.Parent = Teleport
 TextButton_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_10.Position = UDim2.new(0.0930232555, 0, 0.011503676, 0)
-TextButton_10.Size = UDim2.new(0, 59, 0, 24)
-TextButton_10.Font = Enum.Font.Sarpanch
-TextButton_10.Text = "Blue Silent"
+TextButton_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.Position = UDim2.new(0.0136053842, 0, 0.0115606943, 0)
+TextButton_10.Size = UDim2.new(0, 353, 0, 27)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Hospital"
 TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_10.TextSize = 14.000
-TextButton_10.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_11.Parent = ScrollingSilentAim
+TextButton_11.Parent = Teleport
 TextButton_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_11.Position = UDim2.new(0.0930232555, 0, 0.111196935, 0)
-TextButton_11.Size = UDim2.new(0, 59, 0, 24)
+TextButton_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.Position = UDim2.new(0.0136053842, 0, 0.346820831, 0)
+TextButton_11.Size = UDim2.new(0, 353, 0, 27)
 TextButton_11.Font = Enum.Font.SourceSans
-TextButton_11.Text = "Green Silent"
+TextButton_11.Text = "Gun Shop 2"
 TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_11.TextSize = 14.000
-TextButton_11.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_12.Parent = ScrollingSilentAim
+TextButton_12.Parent = Teleport
 TextButton_12.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_12.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_12.Position = UDim2.new(0.0930232555, 0, 0.160276681, 0)
-TextButton_12.Size = UDim2.new(0, 59, 0, 24)
+TextButton_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.Position = UDim2.new(0.0136053842, 0, 0.234103903, 0)
+TextButton_12.Size = UDim2.new(0, 353, 0, 27)
 TextButton_12.Font = Enum.Font.SourceSans
-TextButton_12.Text = "Red Silent"
+TextButton_12.Text = "Gun Shop 1"
 TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_12.TextSize = 14.000
-TextButton_12.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_13.Parent = ScrollingSilentAim
+TextButton_13.Parent = Teleport
 TextButton_13.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_13.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_13.Position = UDim2.new(0.0930232555, 0, 0.209356427, 0)
-TextButton_13.Size = UDim2.new(0, 59, 0, 24)
+TextButton_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.Position = UDim2.new(0.0136053842, 0, 0.124277495, 0)
+TextButton_13.Size = UDim2.new(0, 353, 0, 27)
 TextButton_13.Font = Enum.Font.SourceSans
-TextButton_13.Text = "Black Silent"
+TextButton_13.Text = "Gas Station"
 TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_13.TextSize = 14.000
-TextButton_13.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-ScrollingEsp.Name = "ScrollingEsp"
-ScrollingEsp.Parent = Frame
-ScrollingEsp.Active = true
-ScrollingEsp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingEsp.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingEsp.Position = UDim2.new(0.31934306, 0, 0.0552147217, 0)
-ScrollingEsp.Size = UDim2.new(0, 86, 0, 135)
-
-TextButton_14.Parent = ScrollingEsp
+TextButton_14.Parent = Teleport
 TextButton_14.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_14.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_14.Position = UDim2.new(0.0930232555, 0, 0.060583435, 0)
-TextButton_14.Size = UDim2.new(0, 59, 0, 24)
+TextButton_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.Position = UDim2.new(0.0136053842, 0, 0.676300585, 0)
+TextButton_14.Size = UDim2.new(0, 353, 0, 27)
 TextButton_14.Font = Enum.Font.SourceSans
-TextButton_14.Text = "Green Esp"
+TextButton_14.Text = "Teleport Bank"
 TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_14.TextSize = 14.000
-TextButton_14.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_15.Parent = ScrollingEsp
+TextButton_15.Parent = Teleport
 TextButton_15.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_15.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_15.Position = UDim2.new(0.0930232555, 0, 0.011503676, 0)
-TextButton_15.Size = UDim2.new(0, 59, 0, 24)
-TextButton_15.Font = Enum.Font.Sarpanch
-TextButton_15.Text = "Red Esp"
+TextButton_15.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.Position = UDim2.new(0.0136053842, 0, 0.456647247, 0)
+TextButton_15.Size = UDim2.new(0, 353, 0, 27)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "Teleport Taco"
 TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_15.TextSize = 14.000
-TextButton_15.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_16.Parent = ScrollingEsp
+TextButton_16.Parent = Teleport
 TextButton_16.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_16.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_16.Position = UDim2.new(0.0930232555, 0, 0.111196935, 0)
-TextButton_16.Size = UDim2.new(0, 59, 0, 24)
+TextButton_16.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.Position = UDim2.new(0.0136053842, 0, 0.566473901, 0)
+TextButton_16.Size = UDim2.new(0, 353, 0, 27)
 TextButton_16.Font = Enum.Font.SourceSans
-TextButton_16.Text = "Brown Esp"
+TextButton_16.Text = "Teleport Roof School"
 TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_16.TextSize = 14.000
-TextButton_16.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_17.Parent = ScrollingEsp
+TextButton_17.Parent = Teleport
 TextButton_17.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_17.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_17.Position = UDim2.new(0.0930232555, 0, 0.160276681, 0)
-TextButton_17.Size = UDim2.new(0, 59, 0, 24)
+TextButton_17.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_17.Position = UDim2.new(0.0136053842, 0, 0.78901726, 0)
+TextButton_17.Size = UDim2.new(0, 353, 0, 27)
 TextButton_17.Font = Enum.Font.SourceSans
-TextButton_17.Text = "Blue Esp"
+TextButton_17.Text = "Teleport Admin Base"
 TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_17.TextSize = 14.000
-TextButton_17.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_18.Parent = ScrollingEsp
+TextButton_18.Parent = Teleport
 TextButton_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_18.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_18.Position = UDim2.new(0.0930232555, 0, 0.209356427, 0)
-TextButton_18.Size = UDim2.new(0, 59, 0, 24)
+TextButton_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_18.Position = UDim2.new(0.0136053842, 0, 0.901517272, 0)
+TextButton_18.Size = UDim2.new(0, 353, 0, 27)
 TextButton_18.Font = Enum.Font.SourceSans
-TextButton_18.Text = "Pink Esp"
+TextButton_18.Text = "Teleport Food Shop"
 TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_18.TextSize = 14.000
-TextButton_18.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_19.Parent = ScrollingEsp
+Esp.Name = "Esp"
+Esp.Parent = Frame
+Esp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Esp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Esp.Position = UDim2.new(0.167556062, 0, 0.0668807179, 0)
+Esp.Size = UDim2.new(0, 358, 0, 240)
+Esp.Visible = false
+
+TextButton_19.Parent = Esp
 TextButton_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_19.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_19.Position = UDim2.new(0.0930232555, 0, 0.258436173, 0)
-TextButton_19.Size = UDim2.new(0, 59, 0, 24)
+TextButton_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_19.Position = UDim2.new(0.0204082467, 0, 0.259365857, 0)
+TextButton_19.Size = UDim2.new(0, 351, 0, 27)
 TextButton_19.Font = Enum.Font.SourceSans
-TextButton_19.Text = "Yellow Esp"
+TextButton_19.Text = "ESP Tracers"
 TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_19.TextSize = 14.000
 TextButton_19.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-ScrollingAnimation.Name = "ScrollingAnimation"
-ScrollingAnimation.Parent = Frame
-ScrollingAnimation.Active = true
-ScrollingAnimation.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingAnimation.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingAnimation.Position = UDim2.new(0.478102177, 0, 0.0552147217, 0)
-ScrollingAnimation.Size = UDim2.new(0, 86, 0, 135)
 
-TextButton_20.Parent = ScrollingAnimation
+TextButton_20.Parent = Esp
 TextButton_20.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_20.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_20.Position = UDim2.new(0.0930232555, 0, 0.060583435, 0)
-TextButton_20.Size = UDim2.new(0, 59, 0, 24)
+TextButton_20.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_20.Position = UDim2.new(0.0204082467, 0, 0.138328552, 0)
+TextButton_20.Size = UDim2.new(0, 351, 0, 27)
 TextButton_20.Font = Enum.Font.SourceSans
-TextButton_20.Text = "OldSchool"
+TextButton_20.Text = "ESP Box"
 TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_20.TextSize = 14.000
 TextButton_20.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_21.Parent = ScrollingAnimation
+
+TextButton_21.Parent = Esp
 TextButton_21.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_21.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_21.Position = UDim2.new(0.0930232555, 0, 0.011503676, 0)
-TextButton_21.Size = UDim2.new(0, 59, 0, 24)
-TextButton_21.Font = Enum.Font.Sarpanch
-TextButton_21.Text = "Robot"
+TextButton_21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_21.Position = UDim2.new(0.0204082467, 0, 0.386167139, 0)
+TextButton_21.Size = UDim2.new(0, 351, 0, 27)
+TextButton_21.Font = Enum.Font.SourceSans
+TextButton_21.Text = "ESP Name"
 TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_21.TextSize = 14.000
 TextButton_21.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_22.Parent = ScrollingAnimation
+
+TextButton_22.Parent = Esp
 TextButton_22.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_22.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_22.Position = UDim2.new(0.0930232555, 0, 0.111196935, 0)
-TextButton_22.Size = UDim2.new(0, 59, 0, 24)
+TextButton_22.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_22.Position = UDim2.new(0.0204082467, 0, 0.0230547581, 0)
+TextButton_22.Size = UDim2.new(0, 351, 0, 27)
 TextButton_22.Font = Enum.Font.SourceSans
-TextButton_22.Text = "Cartoony"
+TextButton_22.Text = "ESP All"
 TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_22.TextSize = 14.000
 TextButton_22.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_23.Parent = ScrollingAnimation
+
+OpenEspFrame.Name = "OpenEspFrame"
+OpenEspFrame.Parent = Frame
+OpenEspFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenEspFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenEspFrame.Position = UDim2.new(-0.000125752063, 0, 0.38348043, 0)
+OpenEspFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenEspFrame.Font = Enum.Font.SourceSans
+OpenEspFrame.Text = "Esp"
+OpenEspFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenEspFrame.TextSize = 14.000
+OpenEspFrame.Active = true
+
+OpenCreditsFrame.Name = "OpenCreditsFrame"
+OpenCreditsFrame.Parent = Frame
+OpenCreditsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenCreditsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenCreditsFrame.Position = UDim2.new(0.00219443347, 0, 0.452359289, 0)
+OpenCreditsFrame.Size = UDim2.new(0, 72, 0, 24)
+OpenCreditsFrame.Font = Enum.Font.SourceSans
+OpenCreditsFrame.Text = "Credits"
+OpenCreditsFrame.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenCreditsFrame.TextSize = 14.000
+OpenCreditsFrame.Active = true
+
+TextLabel_18.Parent = Frame
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.Size = UDim2.new(0, 431, 0, 20)
+TextLabel_18.Font = Enum.Font.SourceSans
+TextLabel_18.Text = ""
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.TextSize = 14.000
+
+TextLabel_19.Parent = TextLabel_18
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.Position = UDim2.new(0.00464037107, 0, 0.0113632204, 0)
+TextLabel_19.Size = UDim2.new(0, 157, 0, 15)
+TextLabel_19.Font = Enum.Font.SourceSans
+TextLabel_19.Text = "[☄️]Envixity Scripts Steep Steps"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 14.000
+
+Fun.Name = "Fun"
+Fun.Parent = Frame
+Fun.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fun.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fun.Position = UDim2.new(0.172196463, 0, 0.0885899886, 0)
+Fun.Size = UDim2.new(0, 356, 0, 240)
+Fun.Visible = false
+
+TextButton_23.Parent = Fun
 TextButton_23.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_23.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_23.Position = UDim2.new(0.0930232555, 0, 0.160276681, 0)
-TextButton_23.Size = UDim2.new(0, 59, 0, 24)
+TextButton_23.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_23.Position = UDim2.new(0.00364153576, 0, 0.883485675, 0)
+TextButton_23.Size = UDim2.new(0, 355, 0, 25)
 TextButton_23.Font = Enum.Font.SourceSans
-TextButton_23.Text = "Toy"
+TextButton_23.Text = "Reach Fling [FE]"
 TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_23.TextSize = 14.000
 TextButton_23.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_24.Parent = ScrollingAnimation
+
+TextButton_24.Parent = Fun
 TextButton_24.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_24.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_24.Position = UDim2.new(0.0930232555, 0, 0.209356427, 0)
-TextButton_24.Size = UDim2.new(0, 59, 0, 24)
+TextButton_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_24.Position = UDim2.new(0.00364153576, 0, -0.0145113626, 0)
+TextButton_24.Size = UDim2.new(0, 355, 0, 27)
 TextButton_24.Font = Enum.Font.SourceSans
-TextButton_24.Text = "Mage"
+TextButton_24.Text = "Push Tool [Not FE]"
 TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_24.TextSize = 14.000
 TextButton_24.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_25.Parent = ScrollingAnimation
+
+TextButton_25.Parent = Fun
 TextButton_25.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_25.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_25.Position = UDim2.new(0.0930232555, 0, 0.258436173, 0)
-TextButton_25.Size = UDim2.new(0, 59, 0, 24)
+TextButton_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_25.Position = UDim2.new(0.00364153576, 0, 0.320926934, 0)
+TextButton_25.Size = UDim2.new(0, 355, 0, 27)
 TextButton_25.Font = Enum.Font.SourceSans
-TextButton_25.Text = "Levitation"
+TextButton_25.Text = "F3X Tool"
 TextButton_25.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_25.TextSize = 14.000
 TextButton_25.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_26.Parent = ScrollingAnimation
+
+TextButton_26.Parent = Fun
 TextButton_26.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_26.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_26.Position = UDim2.new(0.0930232555, 0, 0.312117159, 0)
-TextButton_26.Size = UDim2.new(0, 59, 0, 24)
+TextButton_26.BackgroundTransparency = -0.010
+TextButton_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_26.Position = UDim2.new(0.00364153576, 0, 0.209114075, 0)
+TextButton_26.Size = UDim2.new(0, 355, 0, 27)
 TextButton_26.Font = Enum.Font.SourceSans
-TextButton_26.Text = "Elder"
+TextButton_26.Text = "Click Teleport"
 TextButton_26.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_26.TextSize = 14.000
 TextButton_26.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_27.Parent = ScrollingAnimation
+
+TextButton_27.Parent = Fun
 TextButton_27.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_27.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_27.Position = UDim2.new(0.0930232555, 0, 0.362730652, 0)
-TextButton_27.Size = UDim2.new(0, 59, 0, 24)
+TextButton_27.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_27.Position = UDim2.new(0.00364153576, 0, 0.562023699, 0)
+TextButton_27.Size = UDim2.new(0, 355, 0, 27)
 TextButton_27.Font = Enum.Font.SourceSans
-TextButton_27.Text = "Zombie"
+TextButton_27.Text = "Rainbow Carpet"
 TextButton_27.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_27.TextSize = 14.000
 TextButton_27.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_28.Parent = ScrollingAnimation
+
+TextButton_28.Parent = Fun
 TextButton_28.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_28.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_28.Position = UDim2.new(0.0930232555, 0, 0.416498154, 0)
-TextButton_28.Size = UDim2.new(0, 59, 0, 24)
+TextButton_28.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_28.Position = UDim2.new(0.00364153576, 0, 0.673836291, 0)
+TextButton_28.Size = UDim2.new(0, 355, 0, 24)
 TextButton_28.Font = Enum.Font.SourceSans
-TextButton_28.Text = "SuperHero"
+TextButton_28.Text = "Ban Hammer"
 TextButton_28.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_28.TextSize = 14.000
 TextButton_28.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_29.Parent = ScrollingAnimation
+
+TextButton_29.Parent = Fun
 TextButton_29.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_29.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_29.Position = UDim2.new(0.0930232555, 0, 0.468645394, 0)
-TextButton_29.Size = UDim2.new(0, 59, 0, 24)
+TextButton_29.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_29.Position = UDim2.new(-0.000722135068, 0, 0.443222314, 0)
+TextButton_29.Size = UDim2.new(0, 355, 0, 27)
 TextButton_29.Font = Enum.Font.SourceSans
-TextButton_29.Text = "Ninja"
+TextButton_29.Text = "Btools [FE]"
 TextButton_29.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_29.TextSize = 14.000
 TextButton_29.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_30.Parent = ScrollingAnimation
+
+TextButton_30.Parent = Fun
 TextButton_30.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_30.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_30.Position = UDim2.new(0.0930232555, 0, 0.519258916, 0)
-TextButton_30.Size = UDim2.new(0, 59, 0, 24)
+TextButton_30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_30.Position = UDim2.new(0.00364153576, 0, 0.104289755, 0)
+TextButton_30.Size = UDim2.new(0, 355, 0, 27)
 TextButton_30.Font = Enum.Font.SourceSans
-TextButton_30.Text = "Vampire"
+TextButton_30.Text = "Rope Tool [Not FE]"
 TextButton_30.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_30.TextSize = 14.000
 TextButton_30.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_31.Parent = ScrollingAnimation
+
+TextButton_31.Parent = Fun
 TextButton_31.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_31.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_31.Position = UDim2.new(0.0930232555, 0, 0.569872439, 0)
-TextButton_31.Size = UDim2.new(0, 59, 0, 24)
+TextButton_31.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_31.Position = UDim2.new(0.00364153576, 0, 0.782155633, 0)
+TextButton_31.Size = UDim2.new(0, 355, 0, 27)
 TextButton_31.Font = Enum.Font.SourceSans
-TextButton_31.Text = "Astronaut"
+TextButton_31.Text = "Sword [Not FE]"
 TextButton_31.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_31.TextSize = 14.000
 TextButton_31.MouseButton1Down:connect(function()
 	print('Working')
 end)
 
-TextButton_32.Parent = ScrollingAnimation
-TextButton_32.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_32.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_32.Position = UDim2.new(0.0930232555, 0, 0.623553395, 0)
-TextButton_32.Size = UDim2.new(0, 59, 0, 24)
-TextButton_32.Font = Enum.Font.SourceSans
-TextButton_32.Text = "Stylish"
-TextButton_32.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_32.TextSize = 14.000
-TextButton_32.MouseButton1Down:connect(function()
-	print('Working')
-end)
 
-TextButton_33.Parent = ScrollingAnimation
-TextButton_33.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_33.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_33.Position = UDim2.new(0.0930232555, 0, 0.672633171, 0)
-TextButton_33.Size = UDim2.new(0, 59, 0, 24)
-TextButton_33.Font = Enum.Font.SourceSans
-TextButton_33.Text = "WereWolf"
-TextButton_33.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_33.TextSize = 14.000
-TextButton_33.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_34.Parent = ScrollingAnimation
-TextButton_34.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_34.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_34.Position = UDim2.new(0.0930232555, 0, 0.7201792, 0)
-TextButton_34.Size = UDim2.new(0, 59, 0, 24)
-TextButton_34.Font = Enum.Font.SourceSans
-TextButton_34.Text = "Rthro"
-TextButton_34.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_34.TextSize = 14.000
-TextButton_34.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_35.Parent = ScrollingAnimation
-TextButton_35.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_35.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_35.Position = UDim2.new(0.0930232555, 0, 0.773860157, 0)
-TextButton_35.Size = UDim2.new(0, 59, 0, 24)
-TextButton_35.Font = Enum.Font.SourceSans
-TextButton_35.Text = "Pirate"
-TextButton_35.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_35.TextSize = 14.000
-TextButton_35.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_36.Parent = ScrollingAnimation
-TextButton_36.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_36.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_36.Position = UDim2.new(0.0930232555, 0, 0.824473679, 0)
-TextButton_36.Size = UDim2.new(0, 59, 0, 24)
-TextButton_36.Font = Enum.Font.SourceSans
-TextButton_36.Text = "Knight"
-TextButton_36.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_36.TextSize = 14.000
-TextButton_36.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_37.Parent = ScrollingAnimation
-TextButton_37.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_37.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_37.Position = UDim2.new(0.0930232555, 0, 0.876620889, 0)
-TextButton_37.Size = UDim2.new(0, 59, 0, 24)
-TextButton_37.Font = Enum.Font.SourceSans
-TextButton_37.Text = "Bubbly"
-TextButton_37.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_37.TextSize = 14.000
-TextButton_37.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-ScrollingFun.Name = "ScrollingFun"
-ScrollingFun.Parent = Frame
-ScrollingFun.Active = true
-ScrollingFun.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFun.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingFun.Position = UDim2.new(0.636861324, 0, 0.0552147217, 0)
-ScrollingFun.Size = UDim2.new(0, 86, 0, 135)
-
-TextButton_38.Parent = ScrollingFun
-TextButton_38.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_38.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_38.Position = UDim2.new(0.0930232555, 0, 0.060583435, 0)
-TextButton_38.Size = UDim2.new(0, 59, 0, 24)
-TextButton_38.Font = Enum.Font.SourceSans
-TextButton_38.Text = "Speed Tool"
-TextButton_38.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_38.TextSize = 14.000
-TextButton_38.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_39.Parent = ScrollingFun
-TextButton_39.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_39.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_39.Position = UDim2.new(0.0930232555, 0, 0.011503676, 0)
-TextButton_39.Size = UDim2.new(0, 59, 0, 24)
-TextButton_39.Font = Enum.Font.Sarpanch
-TextButton_39.Text = "Trash Talk"
-TextButton_39.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_39.TextSize = 14.000
-TextButton_39.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_40.Parent = ScrollingFun
-TextButton_40.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_40.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_40.Position = UDim2.new(0.0930232555, 0, 0.111196935, 0)
-TextButton_40.Size = UDim2.new(0, 59, 0, 24)
-TextButton_40.Font = Enum.Font.SourceSans
-TextButton_40.Text = "Q Tool"
-TextButton_40.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_40.TextSize = 14.000
-TextButton_40.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_41.Parent = ScrollingFun
-TextButton_41.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_41.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_41.Position = UDim2.new(0.0930232555, 0, 0.160276681, 0)
-TextButton_41.Size = UDim2.new(0, 59, 0, 24)
-TextButton_41.Font = Enum.Font.SourceSans
-TextButton_41.Text = "Keyboard"
-TextButton_41.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_41.TextSize = 14.000
-TextButton_41.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_42.Parent = ScrollingFun
-TextButton_42.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_42.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_42.Position = UDim2.new(0.0930232555, 0, 0.209356427, 0)
-TextButton_42.Size = UDim2.new(0, 59, 0, 24)
-TextButton_42.Font = Enum.Font.SourceSans
-TextButton_42.Text = "Inf Zoom"
-TextButton_42.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_42.TextSize = 14.000
-TextButton_42.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_43.Parent = ScrollingFun
-TextButton_43.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_43.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_43.Position = UDim2.new(0.0930232555, 0, 0.312117159, 0)
-TextButton_43.Size = UDim2.new(0, 59, 0, 24)
-TextButton_43.Font = Enum.Font.SourceSans
-TextButton_43.Text = "Anti Speed"
-TextButton_43.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_43.TextSize = 14.000
-TextButton_43.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_44.Parent = ScrollingFun
-TextButton_44.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_44.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_44.Position = UDim2.new(0.0930232555, 0, 0.362730652, 0)
-TextButton_44.Size = UDim2.new(0, 59, 0, 24)
-TextButton_44.Font = Enum.Font.SourceSans
-TextButton_44.Text = "G Guns"
-TextButton_44.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_44.TextSize = 14.000
-TextButton_44.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_45.Parent = ScrollingFun
-TextButton_45.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_45.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_45.Position = UDim2.new(0.0930232555, 0, 0.416498154, 0)
-TextButton_45.Size = UDim2.new(0, 59, 0, 24)
-TextButton_45.Font = Enum.Font.SourceSans
-TextButton_45.Text = "Translate"
-TextButton_45.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_45.TextSize = 14.000
-TextButton_45.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_46.Parent = ScrollingFun
-TextButton_46.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_46.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_46.Position = UDim2.new(0.0930232555, 0, 0.468645394, 0)
-TextButton_46.Size = UDim2.new(0, 59, 0, 24)
-TextButton_46.Font = Enum.Font.SourceSans
-TextButton_46.Text = "Super Punch"
-TextButton_46.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_46.TextSize = 14.000
-TextButton_46.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_47.Parent = ScrollingFun
-TextButton_47.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_47.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_47.Position = UDim2.new(0.0930232555, 0, 0.519258916, 0)
-TextButton_47.Size = UDim2.new(0, 59, 0, 24)
-TextButton_47.Font = Enum.Font.SourceSans
-TextButton_47.Text = "RTX Gui"
-TextButton_47.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_47.TextSize = 14.000
-TextButton_47.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_48.Parent = ScrollingFun
-TextButton_48.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_48.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_48.Position = UDim2.new(0.0930232555, 0, 0.569872439, 0)
-TextButton_48.Size = UDim2.new(0, 59, 0, 24)
-TextButton_48.Font = Enum.Font.SourceSans
-TextButton_48.Text = "Tp Player"
-TextButton_48.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_48.TextSize = 14.000
-TextButton_48.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-TextButton_49.Parent = ScrollingFun
-TextButton_49.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_49.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_49.Position = UDim2.new(0.0930232555, 0, 0.258436173, 0)
-TextButton_49.Size = UDim2.new(0, 59, 0, 24)
-TextButton_49.Font = Enum.Font.SourceSans
-TextButton_49.Text = "Anti Lock"
-TextButton_49.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_49.TextSize = 14.000
-TextButton_49.MouseButton1Down:connect(function()
-	print('Working')
-end)
-
-CreditsText_2.Name = "Credits Text"
-CreditsText_2.Parent = Frame
-CreditsText_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_2.Position = UDim2.new(0.793795645, 0, 0.0552147254, 0)
-CreditsText_2.Size = UDim2.new(0, 87, 0, 135)
-CreditsText_2.Font = Enum.Font.Sarpanch
-CreditsText_2.Text = ""
-CreditsText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_2.TextScaled = true
-CreditsText_2.TextSize = 14.000
-CreditsText_2.TextWrapped = true
-
-CreditsText_3.Name = "Credits Text"
-CreditsText_3.Parent = Frame
-CreditsText_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_3.Position = UDim2.new(0.793795586, 0, 0.0552147254, 0)
-CreditsText_3.Size = UDim2.new(0, 87, 0, 12)
-CreditsText_3.Font = Enum.Font.Sarpanch
-CreditsText_3.Text = "Owner"
-CreditsText_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_3.TextScaled = true
-CreditsText_3.TextSize = 14.000
-CreditsText_3.TextWrapped = true
-
-CreditsText_4.Name = "Credits Text"
-CreditsText_4.Parent = Frame
-CreditsText_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_4.Position = UDim2.new(0.793795586, 0, 0.0950920209, 0)
-CreditsText_4.Size = UDim2.new(0, 87, 0, 12)
-CreditsText_4.Font = Enum.Font.Sarpanch
-CreditsText_4.Text = "TheNcore"
-CreditsText_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_4.TextScaled = true
-CreditsText_4.TextSize = 14.000
-CreditsText_4.TextWrapped = true
-
-CreditsText_5.Name = "Credits Text"
-CreditsText_5.Parent = Frame
-CreditsText_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_5.Position = UDim2.new(0.793795586, 0, 0.13190183, 0)
-CreditsText_5.Size = UDim2.new(0, 87, 0, 12)
-CreditsText_5.Font = Enum.Font.Sarpanch
-CreditsText_5.Text = "5062"
-CreditsText_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_5.TextScaled = true
-CreditsText_5.TextSize = 14.000
-CreditsText_5.TextWrapped = true
-
-CreditsText_6.Name = "Credits Text"
-CreditsText_6.Parent = Frame
-CreditsText_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_6.Position = UDim2.new(0.793795645, 0, 0.174846619, 0)
-CreditsText_6.Size = UDim2.new(0, 87, 0, 12)
-CreditsText_6.Font = Enum.Font.Sarpanch
-CreditsText_6.Text = "Discord"
-CreditsText_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_6.TextScaled = true
-CreditsText_6.TextSize = 14.000
-CreditsText_6.TextWrapped = true
-
-CreditsText_7.Name = "Credits Text"
-CreditsText_7.Parent = Frame
-CreditsText_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_7.Position = UDim2.new(0.793795586, 0, 0.211656436, 0)
-CreditsText_7.Size = UDim2.new(0, 87, 0, 12)
-CreditsText_7.Font = Enum.Font.Sarpanch
-CreditsText_7.Text = "gg/QrxYbwf2"
-CreditsText_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_7.TextScaled = true
-CreditsText_7.TextSize = 14.000
-CreditsText_7.TextWrapped = true
-
-CreditsText_8.Name = "Credits Text"
-CreditsText_8.Parent = Frame
-CreditsText_8.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_8.Position = UDim2.new(0.804744542, 0, 0.263803691, 0)
-CreditsText_8.Size = UDim2.new(0, 75, 0, 63)
-CreditsText_8.Font = Enum.Font.Sarpanch
-CreditsText_8.Text = ""
-CreditsText_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_8.TextScaled = true
-CreditsText_8.TextSize = 14.000
-CreditsText_8.TextWrapped = true
-
-CreditsText_9.Name = "Credits Text"
-CreditsText_9.Parent = Frame
-CreditsText_9.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_9.Position = UDim2.new(0.812043786, 0, 0.276073605, 0)
-CreditsText_9.Size = UDim2.new(0, 67, 0, 54)
-CreditsText_9.Font = Enum.Font.Sarpanch
-CreditsText_9.Text = ""
-CreditsText_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_9.TextScaled = true
-CreditsText_9.TextSize = 14.000
-CreditsText_9.TextWrapped = true
-
-CreditsText_10.Name = "Credits Text"
-CreditsText_10.Parent = Frame
-CreditsText_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_10.Position = UDim2.new(0.81934309, 0, 0.291411042, 0)
-CreditsText_10.Size = UDim2.new(0, 60, 0, 45)
-CreditsText_10.Font = Enum.Font.Sarpanch
-CreditsText_10.Text = ""
-CreditsText_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_10.TextScaled = true
-CreditsText_10.TextSize = 14.000
-CreditsText_10.TextWrapped = true
-
-ImageLabel_2.Parent = CreditsText_10
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_2.Position = UDim2.new(0.0856669098, 0, 0.09099935, 0)
-ImageLabel_2.Size = UDim2.new(0, 49, 0, 38)
-ImageLabel_2.Image = "http://www.roblox.com/asset/?id=6723742952"
-
-CreditsText_11.Name = "Credits Text"
-CreditsText_11.Parent = Frame
-CreditsText_11.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-CreditsText_11.BorderColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_11.Position = UDim2.new(0.968978107, 0, 0.0613496937, 0)
-CreditsText_11.Size = UDim2.new(0, 9, 0, 132)
-CreditsText_11.Font = Enum.Font.Sarpanch
-CreditsText_11.Text = ""
-CreditsText_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-CreditsText_11.TextScaled = true
-CreditsText_11.TextSize = 14.000
-CreditsText_11.TextWrapped = true
-
-StaminaTitle.Name = "Stamina Title"
-StaminaTitle.Parent = Frame
-StaminaTitle.BackgroundColor3 = Color3.fromRGB(47, 255, 0)
-StaminaTitle.BorderColor3 = Color3.fromRGB(255, 255, 255)
-StaminaTitle.Position = UDim2.new(0.972627759, 0, 0.150306746, 0)
-StaminaTitle.Size = UDim2.new(0, 5, 0, 101)
-StaminaTitle.Font = Enum.Font.Sarpanch
-StaminaTitle.Text = ""
-StaminaTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-StaminaTitle.TextScaled = true
-StaminaTitle.TextSize = 14.000
-StaminaTitle.TextWrapped = true
-
-WhiteLine_2.Name = "White Line"
-WhiteLine_2.Parent = Frame
-WhiteLine_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-WhiteLine_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-WhiteLine_2.Position = UDim2.new(0, 0, 0.809815943, 0)
-WhiteLine_2.Size = UDim2.new(0, 548, 0, 4)
-WhiteLine_2.Font = Enum.Font.Arcade
-WhiteLine_2.Text = ""
-WhiteLine_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-WhiteLine_2.TextScaled = true
-WhiteLine_2.TextSize = 14.000
-WhiteLine_2.TextWrapped = true
-
-profileFrame.Name = "profileFrame"
-profileFrame.Parent = Frame
-profileFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-profileFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-profileFrame.Position = UDim2.new(0.00299606891, 0, 0.829225719, 0)
-profileFrame.Size = UDim2.new(0, 165, 0, 53)
-profileFrame.Active = true
-
-ImageLabel_3.Parent = profileFrame
-ImageLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_3.BackgroundTransparency = 1.000
-ImageLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_3.Position = UDim2.new(0.056768544, 0, 0.0597756132, 0)
-ImageLabel_3.Size = UDim2.new(0, 51, 0, 52)
-ImageLabel_3.Image = "http://www.roblox.com/asset/?id=2795572800"
-
-UICorner.CornerRadius = UDim.new(1, 0)
-UICorner.Parent = ImageLabel_3
-
-TextBox.Parent = profileFrame
-TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.BackgroundTransparency = 1.000
-TextBox.Position = UDim2.new(0.283105046, 0, 0.273972601, 0)
-TextBox.Size = UDim2.new(0, 145, 0, 31)
-TextBox.Font = Enum.Font.Cartoon
-TextBox.Text = "Player"
-TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.TextScaled = true
-TextBox.TextSize = 14.000
-TextBox.TextWrapped = true
+Target.Name = "Target"
+Target.Parent = Frame
+Target.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Target.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Target.Position = UDim2.new(0.168977186, 0, 0.0658629239, 0)
+Target.Size = UDim2.new(0, 358, 0, 240)
+Target.Visible = false
 
 Premium.Name = "Premium"
 Premium.Parent = Frame
 Premium.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Premium.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Premium.Position = UDim2.new(0.302919716, 0, 0.837423325, 0)
-Premium.Size = UDim2.new(0, 140, 0, 50)
-Premium.Font = Enum.Font.Sarpanch
-Premium.Text = "Premium: True"
-Premium.TextColor3 = Color3.fromRGB(255, 255, 255)
-Premium.TextScaled = true
-Premium.TextSize = 14.000
-Premium.TextWrapped = true
+Premium.Position = UDim2.new(0.168030038, 0, 0.0658629239, 0)
+Premium.Size = UDim2.new(0, 358, 0, 240)
+Premium.Visible = false
 
-StaminaPremium.Name = "Stamina Premium"
-StaminaPremium.Parent = Frame
-StaminaPremium.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-StaminaPremium.BorderColor3 = Color3.fromRGB(255, 255, 255)
-StaminaPremium.Position = UDim2.new(0.578467131, 0, 0.898773015, 0)
-StaminaPremium.Size = UDim2.new(0, 227, 0, 15)
-StaminaPremium.Font = Enum.Font.Sarpanch
-StaminaPremium.Text = ""
-StaminaPremium.TextColor3 = Color3.fromRGB(255, 255, 255)
-StaminaPremium.TextScaled = true
-StaminaPremium.TextSize = 14.000
-StaminaPremium.TextWrapped = true
+AutoFarm.Name = "AutoFarm"
+AutoFarm.Parent = Frame
+AutoFarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AutoFarm.Position = UDim2.new(0.16802983, 0, 0.0668807551, 0)
+AutoFarm.Size = UDim2.new(0, 358, 0, 240)
+AutoFarm.Visible = false
 
-StaminaPremium_2.Name = "Stamina Premium"
-StaminaPremium_2.Parent = StaminaPremium
-StaminaPremium_2.BackgroundColor3 = Color3.fromRGB(0, 255, 38)
-StaminaPremium_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-StaminaPremium_2.Position = UDim2.new(0.0806696564, 0, 0.165437832, 0)
-StaminaPremium_2.Size = UDim2.new(0, 208, 0, 9)
-StaminaPremium_2.Font = Enum.Font.Sarpanch
-StaminaPremium_2.Text = ""
-StaminaPremium_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-StaminaPremium_2.TextScaled = true
-StaminaPremium_2.TextSize = 14.000
-StaminaPremium_2.TextWrapped = true
+ExtraStuff.Name = "Extra Stuff"
+ExtraStuff.Parent = Frame
+ExtraStuff.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExtraStuff.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExtraStuff.Position = UDim2.new(0.167082548, 0, 0.0431356728, 0)
+ExtraStuff.Size = UDim2.new(0, 358, 0, 240)
+ExtraStuff.Visible = false
 
-ImageLabel_4.Parent = StaminaPremium
-ImageLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_4.Position = UDim2.new(0.0132158594, 0, 0.13333334, 0)
-ImageLabel_4.Size = UDim2.new(0, 17, 0, 12)
-ImageLabel_4.Image = "http://www.roblox.com/asset/?id=5986140521"
+Fov.Name = "Fov"
+Fov.Parent = Frame
+Fov.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fov.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fov.Position = UDim2.new(0.167556062, 0, 0.0668807551, 0)
+Fov.Size = UDim2.new(0, 358, 0, 240)
+Fov.Visible = false
 
-ColorPicker.Name = "Color Picker"
-ColorPicker.Parent = Frame
-ColorPicker.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ColorPicker.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ColorPicker.Position = UDim2.new(0.00912408717, 0, 0.490797549, 0)
-ColorPicker.Size = UDim2.new(0, 75, 0, 98)
-ColorPicker.Font = Enum.Font.Sarpanch
-ColorPicker.Text = ""
-ColorPicker.TextColor3 = Color3.fromRGB(255, 255, 255)
-ColorPicker.TextScaled = true
-ColorPicker.TextSize = 14.000
-ColorPicker.TextWrapped = true
+TextButton_32.Parent = EnvixitySteepSteps
+TextButton_32.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_32.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_32.Position = UDim2.new(-0.000147938728, 0, 0.43409723, 0)
+TextButton_32.Size = UDim2.new(0, 64, 0, 58)
+TextButton_32.Font = Enum.Font.SourceSans
+TextButton_32.Text = "☄️"
+TextButton_32.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_32.TextScaled = true
+TextButton_32.TextSize = 14.000
+TextButton_32.TextWrapped = true
+TextButton_32.Draggable = true
+TextButton_32.MouseButton1Down:connect(function()
+	print('Working')
+end)
 
-ColorUI.Name = "ColorUI"
-ColorUI.Parent = ColorPicker
-ColorUI.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
-ColorUI.BorderColor3 = Color3.fromRGB(38, 38, 38)
-ColorUI.BorderSizePixel = 2
-ColorUI.Position = UDim2.new(0, 0, 1, 0)
-ColorUI.Size = UDim2.new(0, 453, 0, 129)
-ColorUI.Visible = false
 
-ColorPickers.Name = "ColorPickers"
-ColorPickers.Parent = ColorUI
-ColorPickers.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorPickers.BackgroundTransparency = 1.000
-ColorPickers.Position = UDim2.new(-0.00180119276, 0, -0.00353783369, 0)
-ColorPickers.Size = UDim2.new(1, 0, 1, 0)
+UICorner.Parent = TextButton_32
 
-Vertical.Name = "Vertical"
-Vertical.Parent = ColorPickers
-Vertical.AnchorPoint = Vector2.new(0.5, 0.5)
-Vertical.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
-Vertical.BackgroundTransparency = 1.000
-Vertical.BorderSizePixel = 0
-Vertical.Position = UDim2.new(0.927431822, 0, 0.499000013, 0)
-Vertical.Size = UDim2.new(0.107632093, 0, 0.918971777, 0)
+local function URMC_fake_script() -- OpenAimlockFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenAimlockFrame)
 
-ColorPickerArea.Name = "ColorPickerArea"
-ColorPickerArea.Parent = Vertical
-ColorPickerArea.Active = true
-ColorPickerArea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorPickerArea.BorderSizePixel = 0
-ColorPickerArea.Position = UDim2.new(0.596175492, 0, 0.00110334251, 0)
-ColorPickerArea.Size = UDim2.new(0.568842232, 0, 0.933330476, 0)
-
-Picker.Name = "Picker"
-Picker.Parent = ColorPickerArea
-Picker.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
-Picker.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Picker.BorderSizePixel = 0
-Picker.Position = UDim2.new(0, 0, 0.5, 0)
-Picker.Size = UDim2.new(1, 0, 0.0149999997, 0)
-
-UICorner_2.CornerRadius = UDim.new(1, 0)
-UICorner_2.Parent = Picker
-
-UIGradent.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradent.Rotation = 90
-UIGradent.Name = "UIGradent"
-UIGradent.Parent = ColorPickerArea
-
-UICorner_3.CornerRadius = UDim.new(0, 10)
-UICorner_3.Parent = ColorPickerArea
-
-UICorner_4.CornerRadius = UDim.new(0, 10)
-UICorner_4.Parent = Vertical
-
-Horizontal.Name = "Horizontal"
-Horizontal.Parent = ColorPickers
-Horizontal.AnchorPoint = Vector2.new(0.5, 0.5)
-Horizontal.BackgroundColor3 = Color3.fromRGB(250, 250, 250)
-Horizontal.BackgroundTransparency = 1.000
-Horizontal.BorderSizePixel = 0
-Horizontal.Position = UDim2.new(0.44618395, 0, 0.50081104, 0)
-Horizontal.Size = UDim2.new(0.892367899, 0, 0.996183217, 0)
-
-UICorner_5.CornerRadius = UDim.new(0, 10)
-UICorner_5.Parent = Horizontal
-
-ColorPickerArea_2.Name = "ColorPickerArea"
-ColorPickerArea_2.Parent = Horizontal
-ColorPickerArea_2.Active = true
-ColorPickerArea_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorPickerArea_2.BorderSizePixel = 0
-ColorPickerArea_2.Position = UDim2.new(0.0196350683, 0, 0.0379530638, 0)
-ColorPickerArea_2.Size = UDim2.new(1.00899446, 0, 0.860991061, 0)
-
-Picker_2.Name = "Picker"
-Picker_2.Parent = ColorPickerArea_2
-Picker_2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
-Picker_2.BackgroundTransparency = 1.000
-Picker_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Picker_2.BorderSizePixel = 0
-Picker_2.Size = UDim2.new(0.0170000009, 0, 1, 0)
-
-UICorner_6.CornerRadius = UDim.new(1, 0)
-UICorner_6.Parent = Picker_2
-
-UICorner_7.CornerRadius = UDim.new(0, 10)
-UICorner_7.Parent = ColorPickerArea_2
-
-Rainbow.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.20, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(0.40, Color3.fromRGB(0, 255, 0)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 255))}
-Rainbow.Name = "Rainbow"
-Rainbow.Parent = ColorPickerArea_2
-
-UICorner_8.Parent = ColorPickers
-
-RGBInput.Name = "RGBInput"
-RGBInput.Parent = ColorPickers
-RGBInput.AnchorPoint = Vector2.new(0.5, 0.5)
-RGBInput.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-RGBInput.Position = UDim2.new(0.434999973, 0, 0.94911629, 0)
-RGBInput.Size = UDim2.new(0.736720562, 0, 0.101767823, 0)
-RGBInput.Visible = false
-
-UICorner_9.CornerRadius = UDim.new(0.5, 0)
-UICorner_9.Parent = RGBInput
-
-R.Name = "R"
-R.Parent = RGBInput
-R.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-R.BackgroundTransparency = 1.000
-R.BorderSizePixel = 0
-R.Size = UDim2.new(0.330000013, 0, 1, 0)
-
-ColorName.Name = "ColorName"
-ColorName.Parent = R
-ColorName.AnchorPoint = Vector2.new(0, 0.5)
-ColorName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorName.BackgroundTransparency = 1.000
-ColorName.BorderSizePixel = 0
-ColorName.Position = UDim2.new(0, 0, 0.5, 0)
-ColorName.Size = UDim2.new(0.25, 0, 0.800000012, 0)
-ColorName.Font = Enum.Font.SourceSans
-ColorName.Text = "R"
-ColorName.TextColor3 = Color3.fromRGB(0, 0, 0)
-ColorName.TextScaled = true
-ColorName.TextSize = 14.000
-ColorName.TextWrapped = true
-
-ValueBox.Name = "ValueBox"
-ValueBox.Parent = R
-ValueBox.AnchorPoint = Vector2.new(0, 0.5)
-ValueBox.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-ValueBox.BorderSizePixel = 0
-ValueBox.Position = UDim2.new(0.25, 0, 0.5, 0)
-ValueBox.Size = UDim2.new(0.75, 0, 0.800000012, 0)
-ValueBox.Font = Enum.Font.SourceSans
-ValueBox.Text = "0"
-ValueBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-ValueBox.TextScaled = true
-ValueBox.TextSize = 14.000
-ValueBox.TextWrapped = true
-
-UICorner_10.CornerRadius = UDim.new(0.5, 0)
-UICorner_10.Parent = ValueBox
-
-G.Name = "G"
-G.Parent = RGBInput
-G.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-G.BackgroundTransparency = 1.000
-G.BorderSizePixel = 0
-G.Position = UDim2.new(0.330000013, 0, 0, 0)
-G.Size = UDim2.new(0.330000013, 0, 1, 0)
-
-ColorName_2.Name = "ColorName"
-ColorName_2.Parent = G
-ColorName_2.AnchorPoint = Vector2.new(0, 0.5)
-ColorName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorName_2.BackgroundTransparency = 1.000
-ColorName_2.BorderSizePixel = 0
-ColorName_2.Position = UDim2.new(0, 0, 0.5, 0)
-ColorName_2.Size = UDim2.new(0.25, 0, 0.800000012, 0)
-ColorName_2.Font = Enum.Font.SourceSans
-ColorName_2.Text = "G"
-ColorName_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ColorName_2.TextScaled = true
-ColorName_2.TextSize = 14.000
-ColorName_2.TextWrapped = true
-
-ValueBox_2.Name = "ValueBox"
-ValueBox_2.Parent = G
-ValueBox_2.AnchorPoint = Vector2.new(0, 0.5)
-ValueBox_2.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-ValueBox_2.BorderSizePixel = 0
-ValueBox_2.Position = UDim2.new(0.25, 0, 0.5, 0)
-ValueBox_2.Size = UDim2.new(0.75, 0, 0.800000012, 0)
-ValueBox_2.Font = Enum.Font.SourceSans
-ValueBox_2.Text = "0"
-ValueBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ValueBox_2.TextScaled = true
-ValueBox_2.TextSize = 14.000
-ValueBox_2.TextWrapped = true
-
-UICorner_11.CornerRadius = UDim.new(0.5, 0)
-UICorner_11.Parent = ValueBox_2
-
-B.Name = "B"
-B.Parent = RGBInput
-B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-B.BackgroundTransparency = 1.000
-B.BorderSizePixel = 0
-B.Position = UDim2.new(0.660000026, 0, 0, 0)
-B.Size = UDim2.new(0.330000013, 0, 1, 0)
-
-ColorName_3.Name = "ColorName"
-ColorName_3.Parent = B
-ColorName_3.AnchorPoint = Vector2.new(0, 0.5)
-ColorName_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorName_3.BackgroundTransparency = 1.000
-ColorName_3.BorderSizePixel = 0
-ColorName_3.Position = UDim2.new(0, 0, 0.5, 0)
-ColorName_3.Size = UDim2.new(0.25, 0, 0.800000012, 0)
-ColorName_3.Font = Enum.Font.SourceSans
-ColorName_3.Text = "B"
-ColorName_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-ColorName_3.TextScaled = true
-ColorName_3.TextSize = 14.000
-ColorName_3.TextWrapped = true
-
-ValueBox_3.Name = "ValueBox"
-ValueBox_3.Parent = B
-ValueBox_3.AnchorPoint = Vector2.new(0, 0.5)
-ValueBox_3.BackgroundColor3 = Color3.fromRGB(220, 220, 220)
-ValueBox_3.BorderSizePixel = 0
-ValueBox_3.Position = UDim2.new(0.25, 0, 0.5, 0)
-ValueBox_3.Size = UDim2.new(0.75, 0, 0.800000012, 0)
-ValueBox_3.Font = Enum.Font.SourceSans
-ValueBox_3.Text = "0"
-ValueBox_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-ValueBox_3.TextScaled = true
-ValueBox_3.TextSize = 14.000
-ValueBox_3.TextWrapped = true
-
-UICorner_12.CornerRadius = UDim.new(0.5, 0)
-UICorner_12.Parent = ValueBox_3
-
-Action.Name = "Action"
-Action.Parent = ColorPicker
-Action.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Action.BackgroundTransparency = 1.000
-Action.Size = UDim2.new(1, 0, 1, 0)
-Action.Font = Enum.Font.SourceSans
-Action.Text = ""
-Action.TextColor3 = Color3.fromRGB(0, 0, 0)
-Action.TextSize = 14.000
-
-Color.Name = "Color"
-Color.Parent = ColorPicker
-Color.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Color.BorderColor3 = Color3.fromRGB(255, 255, 255)
-Color.Position = UDim2.new(0.029808756, 0, 0.0268529784, 0)
-Color.Size = UDim2.new(0, 70, 0, 92)
-
-TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.Position = UDim2.new(0.166058391, 0, 0.521472394, 0)
-TextLabel_2.Size = UDim2.new(0, 137, 0, 76)
-TextLabel_2.Font = Enum.Font.Sarpanch
-TextLabel_2.Text = ""
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
-
-TextLabel_3.Parent = Frame
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.Position = UDim2.new(0.178832114, 0, 0.588957071, 0)
-TextLabel_3.Size = UDim2.new(0, 123, 0, 35)
-TextLabel_3.Font = Enum.Font.Sarpanch
-TextLabel_3.Text = "Color Picker"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
-
-TextLabel_4.Parent = Frame
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.Position = UDim2.new(0.178832114, 0, 0.533742309, 0)
-TextLabel_4.Size = UDim2.new(0, 123, 0, 13)
-TextLabel_4.Font = Enum.Font.Sarpanch
-TextLabel_4.Text = "Beta"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 14.000
-TextLabel_4.TextWrapped = true
-
-ColorPickerFrame.Name = "ColorPickerFrame"
-ColorPickerFrame.Parent = Frame
-ColorPickerFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ColorPickerFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
-ColorPickerFrame.BorderSizePixel = 0
-ColorPickerFrame.Position = UDim2.new(0.43312484, 0, 0.561862111, 0)
-ColorPickerFrame.Size = UDim2.new(0.552919686, 0, -0.141104296, 100)
-
-ColorShower.Name = "ColorShower"
-ColorShower.Parent = ColorPickerFrame
-ColorShower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorShower.BorderSizePixel = 0
-ColorShower.Position = UDim2.new(0, 10, 0, 10)
-ColorShower.Size = UDim2.new(0, 80, 1, -20)
-
-ColorPickerArea_3.Name = "ColorPickerArea"
-ColorPickerArea_3.Parent = ColorPickerFrame
-ColorPickerArea_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ColorPickerArea_3.BorderSizePixel = 0
-ColorPickerArea_3.Position = UDim2.new(0, 100, 0, 10)
-ColorPickerArea_3.Size = UDim2.new(1, -110, 1, -20)
-
-Picker_3.Name = "Picker"
-Picker_3.Parent = ColorPickerArea_3
-Picker_3.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
-Picker_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Picker_3.BorderSizePixel = 0
-Picker_3.Size = UDim2.new(0, 5, 1, 0)
-
-Rainbow_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.20, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(0.40, Color3.fromRGB(0, 255, 0)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)), ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 255))}
-Rainbow_2.Name = "Rainbow"
-Rainbow_2.Parent = ColorPickerArea_3
-
--- Module Scripts:
-
-local fake_module_scripts = {}
-
-do -- nil.GetOnGradientSlider
-	local script = Instance.new('ModuleScript', nil)
-	script.Name = "GetOnGradientSlider"
-	local function module_script()
-		-- dispeller 2020
-		-- Open Sourced Get On Gradient Slider module/function
-		
-		function getColor(percentage, ColorKeyPoints)
-			if (percentage < 0) or (percentage>1) then
-				--error'getColor percentage out of bounds!'
-				warn'getColor got out of bounds percentage (less than 0 or greater than 1'
-			end
-			
-			local closestToLeft = ColorKeyPoints[1]
-			local closestToRight = ColorKeyPoints[#ColorKeyPoints]
-			local LocalPercentage = .5
-			local color = closestToLeft.Value
-			
-			-- This loop can probably be improved by doing something like a Binary search instead
-			-- This should work fine though
-			for i=1,#ColorKeyPoints-1 do
-				if (ColorKeyPoints[i].Time <= percentage) and (ColorKeyPoints[i+1].Time >= percentage) then
-					closestToLeft = ColorKeyPoints[i]
-					closestToRight = ColorKeyPoints[i+1]
-					LocalPercentage = (percentage-closestToLeft.Time)/(closestToRight.Time-closestToLeft.Time)
-					color = closestToLeft.Value:lerp(closestToRight.Value,LocalPercentage)
-					return color
-				end
-			end
-			warn('Color not found!')
-			return color
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
 		end
-		
-		return getColor
-	end
-	fake_module_scripts[script] = module_script
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if AimlockFrame.Visible == false then
+			AimlockFrame.Visible = true
+		end
+	end)
 end
-do -- nil.GetOnGradientSlider
-	local script = Instance.new('ModuleScript', nil)
-	script.Name = "GetOnGradientSlider"
-	local function module_script()
-		-- dispeller 2020
-		-- Open Sourced Get On Gradient Slider module/function
-		
-		function getColor(percentage, ColorKeyPoints)
-			if (percentage < 0) or (percentage>1) then
-				--error'getColor percentage out of bounds!'
-				warn'getColor got out of bounds percentage (less than 0 or greater than 1'
-			end
-			
-			local closestToLeft = ColorKeyPoints[1]
-			local closestToRight = ColorKeyPoints[#ColorKeyPoints]
-			local LocalPercentage = .5
-			local color = closestToLeft.Value
-			
-			-- This loop can probably be improved by doing something like a Binary search instead
-			-- This should work fine though
-			for i=1,#ColorKeyPoints-1 do
-				if (ColorKeyPoints[i].Time <= percentage) and (ColorKeyPoints[i+1].Time >= percentage) then
-					closestToLeft = ColorKeyPoints[i]
-					closestToRight = ColorKeyPoints[i+1]
-					LocalPercentage = (percentage-closestToLeft.Time)/(closestToRight.Time-closestToLeft.Time)
-					color = closestToLeft.Value:lerp(closestToRight.Value,LocalPercentage)
-					return color
-				end
-			end
-			warn('Color not found!')
-			return color
+coroutine.wrap(URMC_fake_script)()
+local function HPQXTT_fake_script() -- OpenSilentAimFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenSilentAimFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
 		end
-		
-		return getColor
-	end
-	fake_module_scripts[script] = module_script
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == false then
+			SilentAimFrame.Visible = true
+		end
+	end)
 end
+coroutine.wrap(HPQXTT_fake_script)()
+local function GFGRX_fake_script() -- OpenFunFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenFunFrame)
 
-
--- Scripts:
-
-local function MSEFOEV_fake_script() -- MinimizeButon.LocalScript 
-	local script = Instance.new('LocalScript', MinimizeButon)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
 		end
-		return req(obj)
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if FunFrame.Visible == false then
+			FunFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(GFGRX_fake_script)()
+local function LZYDHX_fake_script() -- OpenAutoBuyFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenAutoBuyFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == false then
+			AutoBuyFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(LZYDHX_fake_script)()
+local function DXLJVOZ_fake_script() -- OpenEspFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenEspFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if CreditsFrame.Visible == true then
+			CreditsFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if EspFrame.Visible == false then
+			EspFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(DXLJVOZ_fake_script)()
+local function RYVL_fake_script() -- OpenCreditsFrame.LocalScript 
+	local script = Instance.new('LocalScript', OpenCreditsFrame)
+
+	local AimlockFrame = script.Parent.Parent.Aimlock
+	local AnimationFrame = script.Parent.Parent.Animation
+	local AutoBuyFrame = script.Parent.Parent["AutoBuy "]
+	local AutoFarmFrame = script.Parent.Parent.AutoFarm
+	local CreditsFrame = script.Parent.Parent.Credits
+	local EspFrame = script.Parent.Parent.Esp
+	local ExtraStuffFrame = script.Parent.Parent["Extra Stuff"]
+	local FovFrame = script.Parent.Parent.Fov
+	local FunFrame = script.Parent.Parent.Fun
+	local PremiumFrame = script.Parent.Parent.Premium
+	local SilentAimFrame = script.Parent.Parent["Silent Aim"]
+	local TargetFrame = script.Parent.Parent.Target
+	local TeleportFrame = script.Parent.Parent.Teleport
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if AnimationFrame.Visible == true then
+			AnimationFrame.Visible = false
+		end
+		if AutoBuyFrame.Visible == true then
+			AutoBuyFrame.Visible = false
+		end
+		if AutoFarmFrame.Visible == true then
+			AutoFarmFrame.Visible = false
+		end
+		if AimlockFrame.Visible == true then
+			AimlockFrame.Visible = false
+		end
+		if EspFrame.Visible == true then
+			EspFrame.Visible = false
+		end
+		if ExtraStuffFrame.Visible == true then
+			ExtraStuffFrame.Visible = false
+		end
+		if FovFrame.Visible == true then
+			FovFrame.Visible =  false
+		end
+		if FunFrame.Visible == true then
+			FunFrame.Visible = false
+		end
+		if PremiumFrame.Visible == true then
+			PremiumFrame.Visible = false
+		end
+		if SilentAimFrame.Visible == true then
+			SilentAimFrame.Visible = false
+		end
+		if TargetFrame.Visible == true then
+			TargetFrame.Visible = false
+		end
+		if TeleportFrame.Visible == true then
+			TeleportFrame.Visible = false
+		end
+		if CreditsFrame.Visible == false then
+			CreditsFrame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(RYVL_fake_script)()
+local function GLPOATK_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
 	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(GLPOATK_fake_script)()
+local function KSIZAPR_fake_script() -- TextButton_32.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_32)
 
 	Frame = script.Parent.Parent.Frame
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1663,464 +1296,4 @@ local function MSEFOEV_fake_script() -- MinimizeButon.LocalScript
 	end
 	
 end
-coroutine.wrap(MSEFOEV_fake_script)()
-local function GBQZ_fake_script() -- ImageLabel.Rainbow Script 
-	local script = Instance.new('Script', ImageLabel)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local text = script.Parent
-	local add = 10
-	wait(1)
-	local k = 1
-	while k <= 255 do
-	text.Color = Color3.new(k/255,0/255,0/255)
-	k = k + add
-	wait()
-	end
-	while true do
-	k = 1
-	while k <= 255 do
-	text.Color = Color3.new(255/255,k/255,0/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.Color = Color3.new(255/255 - k/255,255/255,0/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.Color = Color3.new(0/255,255/255,k/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.Color = Color3.new(0/255,255/255 - k/255,255/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.Color = Color3.new(k/255,0/255,255/255)
-	k = k + add
-	wait()
-	end
-	k = 1
-	while k <= 255 do
-	text.Color = Color3.new(255/255,0/255,255/255 - k/255)
-	k = k + add
-	wait()
-	end
-	while k <= 255 do
-	text.Color = Color3.new(255/255 - k/255,0/255,0/255)
-	k = k + add
-	wait()
-	end
-	end
-end
-coroutine.wrap(GBQZ_fake_script)()
-local function BCBGHBV_fake_script() -- CloseButton.Close 
-	local script = Instance.new('LocalScript', CloseButton)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Visible = false
-	end)
-	
-end
-coroutine.wrap(BCBGHBV_fake_script)()
-local function JZIQ_fake_script() -- ImageLabel_3.LocalScript 
-	local script = Instance.new('LocalScript', ImageLabel_3)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local Players = game:getService("Players")
-	local plr = Players.LocalPlayer
-	local userId = plr.UserId
-	local thumbType = Enum.ThumbnailType.HeadShot
-	local thumbSize = Enum.ThumbnailSize.Size420x420
-	local content, isReady = Players:GetUserThumbnailAsync(userId,thumbType,thumbSize)
-	
-	local imageLabel = script.Parent
-	imageLabel.Image = content
-end
-coroutine.wrap(JZIQ_fake_script)()
-local function FIMVOPK_fake_script() -- TextBox.LocalScript 
-	local script = Instance.new('LocalScript', TextBox)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local Players = game:GetService("Players")
-	
-	local plr = Players.LocalPlayer
-	
-	script.Parent.Text = plr.Name
-	
-end
-coroutine.wrap(FIMVOPK_fake_script)()
-local function NHXOAFY_fake_script() -- ColorPickers.ColorPickerLocal 
-	local script = Instance.new('LocalScript', ColorPickers)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	-- dispeller 2020, modified by Stonetr03, furtherly modified by LightningLion58
-	-- Color picker example
-	
-	local Player = game.Players.LocalPlayer
-	local UserInputService = game:GetService('UserInputService')
-	
-	local GUI = script.Parent
-	
-	
-	local selecting = false
-	
-	-- load the getColor function
-	local getColor = require(script:WaitForChild("GetOnGradientSlider"))
-	
-	-- upon the user selecting
-	function beginSelection(MainFrame, axis, frameToUpdate : Frame?, otherAxis)
-	
-		local ColorShower = script.Parent.Parent.Parent.Color or frameToUpdate.ColorShower
-		local PickerArea = MainFrame.ColorPickerArea
-		local Picker = PickerArea.Picker
-		local Gradient = PickerArea:FindFirstChildOfClass('UIGradient')
-	
-		selecting = true
-		local ColorKeyPoints = Gradient.Color.Keypoints
-	
-		repeat task.wait()
-			-- left cord of ColorPickerArea in pixels
-			local minPos = PickerArea.AbsolutePosition[axis]
-	
-			-- right cord of ColorPickerArea in pixels
-			local maxPos = minPos+PickerArea.AbsoluteSize[axis]
-	
-			-- width of ColorPickerArea in pixels
-			local PixelSize = PickerArea.AbsoluteSize[axis]
-	
-			-- raw Mouse X/Y pixel position
-			local mouse = UserInputService:GetMouseLocation()[axis] - (axis=="Y" and 36 or 0)
-	
-			-- constraints
-			if mouse<minPos then
-				mouse = minPos
-			elseif mouse > maxPos then
-				mouse = maxPos
-			end
-	
-			-- get percentage mouse is on
-			local Pos = (mouse-minPos)/PixelSize
-	
-			-- move the visual Picker line
-			if(axis == "X") then
-				Picker.Position = UDim2.new(Pos,0,0,0)
-			elseif(axis == "Y") then
-				Picker.Position = UDim2.new(0,0,Pos,0)
-			else
-				warn("No such axis!")
-			end
-	
-			-- set the ColorShower frame color
-			ColorShower.BackgroundColor3 = getColor(Pos,ColorKeyPoints)
-	
-			if(frameToUpdate) then --If the current color change is supposed to influence a different frame:
-				local Area = frameToUpdate:WaitForChild("ColorPickerArea")
-				local Grad : UIGradient = Area:FindFirstChildOfClass('UIGradient')
-				local colors = Grad.Color.Keypoints
-				colors[2] = ColorSequenceKeypoint.new(colors[2].Time,ColorShower.BackgroundColor3)
-				Grad.Color = ColorSequence.new(colors) --Change the color pallete of the second frame
-	
-				local color = getColor(Area:WaitForChild("Picker").Position[otherAxis].Scale,colors)
-				if(frameToUpdate:FindFirstChild("ColorShower")) then
-					frameToUpdate:WaitForChild("ColorShower").BackgroundColor3 = color --Update the color shower if its in the other frame
-				else
-					ColorShower.BackgroundColor3 = color --Update the color shower of this frame
-				end
-			end
-	
-		until not selecting
-	end
-	
-	-- upon the user ending selection
-	function endSelection()
-		-- this will stop the loop
-		selecting = false
-	end
-	
-	-- check input for selection beginning
-	
-	--Parameters for the following function:
-	-- frame - the color picker frame
-	-- axis - axis of color picking (axis of color picker)
-	-- frameToUpdate? - use if the change of 'frame' is supposed to influence a different gradient
-	-- otherAxis? - axis of 'frameToUpdate'
-	
-	local function enableColorPicker(frame, axis : "Y" | "X" , frameToUpdate : Frame | nil, otherAxis : "Y"? | "X"?)
-	
-		frame:WaitForChild("ColorPickerArea").InputBegan:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-				beginSelection(frame, axis, frameToUpdate, otherAxis)
-			end
-		end)
-	
-		frame:WaitForChild("ColorPickerArea").InputEnded:Connect(function(input)
-			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-				endSelection()
-			end
-		end)
-	end
-	
-	enableColorPicker(GUI:WaitForChild("Horizontal"), "X", GUI:WaitForChild("Vertical"), "Y") --Enable the horizontal color picker, to influence the vertical one
-	enableColorPicker(GUI:WaitForChild("Vertical"), "Y") --Enable the vertical color picker, that does not influence any other color picker
-	
-	--The following code will change the ColorShower's color when the RGB changes:
-	--Parameters for the following function:
-	-- ColorShower - the ColorShower/frame that you want to change on RGB input
-	-- RGBFrame - Frame including your RGB frames and their TextBox ValueBoxes 
-	-- together - Whether the color shower should update using all RGB inputs or only the one changed
-	-- onEnterPress - Whether should change color on FocusLost or when the text changes (any input)
-	-- toUpdateOnChange - Whether to update the RGB values when anything influences the 'ColorShower' Color. True by default
-	function RGBToColor(ColorShower : Frame, RGBFrame, together : boolean, onEnterPress : boolean, toUpdateOnChange : boolean?)
-		local function setColor(frame)
-			local color
-			if(together) then --If to change color using all RGB values
-				color = {}
-				for _, colorFrame in pairs(RGBFrame:GetChildren()) do
-					if(colorFrame:IsA("Frame")) then
-						color[colorFrame.Name] = tonumber(colorFrame:WaitForChild("ValueBox").Text) --Store all RGB values in the table
-					end
-				end	
-			else --To change only one aspect of the current color
-				local originalColor = ColorShower.BackgroundColor3
-				color = {
-					R = originalColor.R*255;
-					G = originalColor.G*255;
-					B = originalColor.B*255;
-				}
-				color[frame.Name] = tonumber(frame:WaitForChild("ValueBox").Text) --Change the one axis/aspect of the color
-			end
-	
-			ColorShower.BackgroundColor3 = Color3.fromRGB(color.R, color.G, color.B) --Set the color
-		end
-	
-		for _, colorFrame in pairs(RGBFrame:GetChildren()) do
-			if(colorFrame:IsA("Frame")) then
-				if(onEnterPress) then
-					colorFrame:WaitForChild("ValueBox").FocusLost:Connect(function()
-						setColor(colorFrame)
-					end)
-				else
-					colorFrame:WaitForChild("ValueBox"):GetPropertyChangedSignal("Text"):Connect(function()
-						setColor(colorFrame)
-					end)
-				end
-			end
-		end
-	
-		if(toUpdateOnChange == true or toUpdateOnChange == nil) then
-			ColorShower:GetPropertyChangedSignal("BackgroundColor3"):Connect(function() --When the color shower changes, update the RGB values
-				RGBFrame:WaitForChild("R"):WaitForChild("ValueBox").Text = math.floor(ColorShower.BackgroundColor3.R*255)
-				RGBFrame:WaitForChild("G"):WaitForChild("ValueBox").Text = math.floor(ColorShower.BackgroundColor3.G*255)
-				RGBFrame:WaitForChild("B"):WaitForChild("ValueBox").Text = math.floor(ColorShower.BackgroundColor3.B*255)
-			end)
-		end
-	end
-	
-	RGBToColor(GUI:WaitForChild("Vertical"):WaitForChild("ColorShower"), GUI:WaitForChild("RGBInput"), false, false)
-end
-coroutine.wrap(NHXOAFY_fake_script)()
-local function IOWGN_fake_script() -- Action.LocalScript 
-	local script = Instance.new('LocalScript', Action)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local showing = false
-	
-	script.Parent.MouseButton1Down:Connect(function()
-		if showing == false then
-			showing = true 
-			script.Parent.Parent.ColorUI.Visible = showing
-			else
-			showing = false 
-			script.Parent.Parent.ColorUI.Visible = showing
-		end
-	end)
-end
-coroutine.wrap(IOWGN_fake_script)()
-local function FSULAT_fake_script() -- Frame.ColorPickerLocal 
-	local script = Instance.new('LocalScript', Frame)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	-- dispeller 2020
-	-- Color picker example
-	
-	local Player = game.Players.LocalPlayer
-	local UserInputService = game:GetService('UserInputService')
-	local MainFrame = script.Parent.ColorPickerFrame
-	local ColorShower = MainFrame.ColorShower
-	local PickerArea = MainFrame.ColorPickerArea
-	local Picker = PickerArea.Picker
-	local Gradient = PickerArea:FindFirstChildOfClass('UIGradient')
-	local ColorKeyPoints = Gradient.Color.Keypoints
-	local selecting = false
-	
-	-- load the getColor function
-	getColor = require(script.GetOnGradientSlider)
-	
-	-- upon the user selecting
-	function beginSelection()
-		selecting = true
-		repeat wait()
-			
-			-- left cord of ColorPickerArea in pixels
-			local minXPos = PickerArea.AbsolutePosition.X
-			
-			-- right cord of ColorPickerArea in pixels
-			local maxXPos = minXPos+PickerArea.AbsoluteSize.X
-			
-			-- width of ColorPickerArea in pixels
-			local xPixelSize = maxXPos-minXPos
-			
-			-- raw Mouse X pixel position
-			local mouseX = UserInputService:GetMouseLocation().X
-			
-			-- constraints
-			if mouseX<minXPos then
-				mouseX = minXPos
-			elseif mouseX>maxXPos then
-				mouseX = maxXPos
-			end
-			
-			-- get percentage mouse is on
-			local xPos = (mouseX-minXPos)/xPixelSize
-			
-			-- move the visual Picker line
-			Picker.Position = UDim2.new(xPos,0,0,0)
-			
-			-- set the ColorShower frame color
-			ColorShower.BackgroundColor3 = getColor(xPos,ColorKeyPoints)
-			
-		until not selecting
-	end
-	
-	-- upon the user ending selection
-	function endSelection()
-		-- this will stop the loop
-		selecting = false
-	end
-	
-	-- check input for selection beginning
-	local function inputBegan(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			beginSelection()
-		end
-	end
-	PickerArea.InputBegan:Connect(inputBegan)
-	
-	-- check input for selection ending
-	local function inputEnded(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			endSelection()
-		end
-	end
-	PickerArea.InputEnded:Connect(inputEnded)
-end
-coroutine.wrap(FSULAT_fake_script)()
-local function WAGV_fake_script() -- OpenFrame.LocalScript 
-	local script = Instance.new('LocalScript', OpenFrame)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local UIS = game:GetService('UserInputService')
-	local frame = script.Parent
-	local dragToggle = nil
-	local dragSpeed = 0.25
-	local dragStart = nil
-	local startPos = nil
-	
-	
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-	
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			if dragToggle then
-				updateInput(input)
-			end
-		end
-	end)
-	
-	
-end
-coroutine.wrap(WAGV_fake_script)()
+coroutine.wrap(KSIZAPR_fake_script)()
